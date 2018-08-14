@@ -1,0 +1,105 @@
+.verifyCont {
+    height: 616px;
+    *height: 666px;
+}
+.heightAlter{
+    height: 666px;
+}
+.verifyCont table{
+    margin: 50px auto 0px;
+}
+.verifyCont table tr td{
+    height:60px;
+}
+.verifyCont table tr td input{
+    height:30px;
+    line-height:30px;
+    width:140px;
+}
+.referToP{
+    background: url("../images/g9.3.png") no-repeat;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+}
+.mailboxVerification{
+    padding-top: 30px;
+    display: none;
+}
+.mailboxVerification img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.requiredWord{
+    display: none;
+    float: right;
+    margin-top: 5px;
+    *margin-top: -25px;
+    color: #656565;
+}
+.requiredColor{
+    color: red;
+}
+.sendVerificationCode{
+    background: url("../images/g9.6.png") no-repeat;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    height: 34px !important;
+    line-height: 30px !important;
+    text-align: center;
+    width: 94px !important;
+    outline: none;
+}
+
+.but1{
+    background:url('../images/g9.6.png') no-repeat !important;
+    color: #fff;
+    height: 34px !important;
+    line-height: 30px !important;
+    width: 94px !important;
+    border: 1px solid #fff;
+}
+.but2{
+    background:url('../images/g9.7.png') no-repeat !important;
+    color: #fff !important;
+    height: 34px !important;
+    line-height: 30px !important;
+    width: 94px !important;
+    border: 1px solid #fff;
+}
+
+/*修改邮箱 第一步（开始）*/
+.nextStepOne{
+    background: url("../images/g9.3.png") no-repeat;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    width: 120px;
+    float: left;
+    cursor: pointer;
+}
+.modifyTitle{
+    width:941px;
+}
+.modifyTitle img{
+    margin-left: 145.5px;
+    margin-top: 30px;
+}
+/*修改一下 第四步 (开始)*/
+.mailboxModSuc{
+    color: #333;
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+}
+.mailboxModSuc img{
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,77 @@
+.searchTerm table{
+  margin-top:10px;
+}
+.searchTerm table tr{
+    overflow: auto;
+}
+.searchTermDiv{
+    color: #585858;
+    text-align: right;
+    border-bottom:1px solid #ccc;
+    height:30px;
+    line-height:20px;
+
+}
+.searchTermDiv span{
+    color: #585858;
+}
+.searchTerm table tr input{
+    *margin-top:10px;
+}
+
+/*下拉框 开始*/
+.uplTermL ul {
+    margin-top: 10px;
+}
+
+.uplTermL ul li {
+    border: 1px solid #d9d9d9;
+    height: 27px;
+    padding-right: 10px;
+    padding-top: 5px;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-left: 32px !important;
+    width: 97px !important;
+}
+.uplLiL {
+    float: left;
+    width: 56px;
+    text-align: center;
+}
+
+.uplLiR {
+    float: left;
+    margin-left: 5px;
+}
+
+.uplLiR > img {
+    cursor: pointer;
+    margin-left: 5px;
+    *margin-top: 12px;
+}
+.timeSelect {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-top: 27px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -33px;
+    width: 139px;
+}
+.timeSelect p {
+    border-bottom: 1px solid #d9d9d9;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+.flPImg img{
+    *margin-top:8px;
+}
+.pButton{
+    *margin-top:10px;
+}
+/*下拉框 结束*/

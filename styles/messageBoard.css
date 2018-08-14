@@ -1,0 +1,123 @@
+.messageCon{
+    margin:10px;
+}
+.messageConUl >li{
+    padding:10px;
+    border-bottom:1px solid #ccc;
+    overflow: auto;
+}
+.messLiLeft{
+    float: left;
+    margin-right: 10px;
+}
+.messLiLeft img{
+    width:100px;
+    height:100px;
+}
+.messLiRight{
+    float: left;
+    width:784px;
+}
+.messWord{
+    color: #6ea9a7;
+}
+.messConP{
+    color: #666;
+    font-size:12px;
+    line-height:1.5;
+    margin-top:10px;
+}
+.dateAndOperate{
+    margin-top:30px;
+    overflow: auto;
+}
+.date{
+    float: left;
+    margin-right:40px;
+    color: #666;
+}
+.operate{
+    float: left;
+    color: #e64004;
+}
+.operate a{
+    color: #e64004;
+}
+.operate span{
+    cursor: pointer;
+}
+.replyDiv{
+    clear: both;
+    padding-top: 10px;
+    *padding-top: 5px;
+    display: none;
+}
+.replyBor{
+    border:1px solid #ccc;
+    min-height: 30px;
+    line-height:30px;
+}
+.preserveWord{
+    background: url("../images/g5.6.png") no-repeat;
+    width:90px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    color: #fff;
+    float: right;
+    margin-top:10px;
+    cursor: pointer;
+}
+.operateSpan{
+    margin-right:10px;
+    cursor: pointer;
+}
+.replyBackUl{
+    clear: both;
+    padding-top: 20px;
+}
+.replyBackUl li{
+    border:1px solid #ccc;
+    overflow: auto;
+    padding:10px;
+}
+.repBacLeft{
+    float: left;
+    margin-right:10px;
+}
+.repBacLeft img{
+    width:40px;
+    height:40px;
+}
+
+.repBacRight{
+    float: left;
+    width: 700px;
+}
+.repBacRight>.messConP{
+    margin-top:5px;
+}
+.replyBackConTop{
+
+    overflow: auto;
+}
+.replyBackConDiv{
+    margin-top:20px;
+}
+.borderTopRemove{
+    border-top:0px;
+}
+/*删除弹出框 开始*/
+.bodyCont span{
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    width: 279px;
+}
+.bodyCont img{
+    float: left;
+}
+.bodyInput{
+    clear: both;
+}
+/*删除弹出框 结束*/

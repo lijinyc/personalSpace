@@ -1,0 +1,556 @@
+/*中间  开始*/
+.divCentre {
+    float: left;
+    width: 658px !important;
+    margin-left: 10px;
+    margin-bottom:50px;
+    *margin-bottom:0px;
+}
+.shareEvents{
+    border:1px solid #ccc;
+    overflow: auto;
+}
+.shareTit{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.shareWord{
+    float: left;
+}
+.shareNum{
+    float: right;
+}
+.writeCont{
+    clear: both;
+    min-height:100px;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:20px;
+}
+.writeCont img{
+    vertical-align: middle;
+}
+.shareBottom{
+    border-top:1px solid #ccc;
+    height:50px;
+    line-height:50px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.browAndMutual{
+    float: left;
+}
+.brow{
+    float: left;
+    margin-right:10px;
+}
+.mutually{
+    float: left;
+}
+.termAndEnter{
+    float: right;
+}
+.term{
+    float: left;
+    margin-right:10px;
+}
+.enterInto{
+    background-image: url('../images/g3.4.png');
+    width:77px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    float: left;
+    cursor: pointer;
+}
+.allDyTit{
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:10px;
+}
+.allDyCont{
+    padding:10px;
+    border:1px solid #ccc;
+    border-top:0px;
+}
+.allSpCont{
+    padding:10px 10px 0px 10px;
+    border:1px solid #ccc;
+    margin-top:10px;
+}
+.uttererImg{
+    float: left;
+    margin-right:10px;
+}
+.uttererImg img{
+    width:50px;
+    height:50px;
+}
+.uttererNa{
+    float: left;
+}
+.uttName{
+    margin-bottom: 5px;
+}
+.uttDate{
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.uttDate span{
+    margin-left:8px;
+    font-size:12px;
+}
+.issueCont{
+    clear: both;
+    padding-top:5px;
+}
+.issueCont img{
+    vertical-align: middle;
+}
+.issueImg{
+    margin-top:10px;
+}
+.issueImg ul li{
+    float: left;
+    margin-right:5px;
+    /*width:208px;*/
+    min-height:142px;
+    padding-bottom:10px;
+}
+.criticL{
+    float: left;
+    margin-right:20px;
+}
+.criticL img{
+    margin-right:8px;
+    vertical-align: middle;
+}
+.criticR{
+    float: left;
+}
+.criticR img{
+    vertical-align: middle;
+    margin-right:8px;
+}
+.criticRDel{
+    float: right;
+}
+.criticRDel img{
+    vertical-align: middle;
+    margin-right:8px;
+}
+.whoPraise{
+    clear: both;
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow: auto;
+}
+.whoPraise ul li{
+    float: left;
+    margin-right:8px;
+}
+.whoPraise ul li img{
+    width:30px;
+    height:30px;
+}
+.allPLeft{
+    float: left;
+}
+.allPLeft a img{
+    width:30px;
+    height:30px;
+}
+.allPl{
+    clear: both;
+}
+.allpRight{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    width: 544px;
+}
+.allPl ul li {
+    clear: both;
+    margin-bottom: 10px;
+    *margin-bottom: 5px;
+    *clear: both;
+    min-height:41px;
+}
+.allPlDiv{
+    margin-bottom:5px;
+    margin-top: 5px;
+}
+.allPlDiv img{
+    vertical-align: middle;
+}
+.allPlDiv span{
+    margin-right: 8px;
+}
+.allpDate{
+    color: #858585;
+}
+.allPCon{
+    color: #6fa8a7;
+    margin-right:5px;
+}
+.allPlulTwo{
+    clear: both;
+    margin-left: 46px;
+}
+.allPlulTwo li{
+    clear: both;
+}
+.operate{
+    clear: both;
+}
+/*评论和表情*/
+
+.commentUl2 li{
+    clear: both;
+}
+.chatCont{
+    *overflow: auto;
+    *min-height: 50px;;
+}
+#show{
+    min-height: 30px;
+    line-height: 30px;
+    width: 413px;
+    border:1px solid #ccc;
+}
+#show img{
+    vertical-align: middle;
+}
+.criticism{
+    /*min-height: 40px;*/
+    /**min-height: 40px;*/
+    line-height: 26px;
+}
+.criticism p{
+    cursor: pointer;
+}
+.meetingDiv{
+    margin-top: 15px;
+}
+.chatCont p{
+    float: left;
+    border: 1px solid #f0542c;
+    background-color: #f0542c;
+    color: #fff;
+    border-left: 0px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -1px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.chatCont img{
+    *margin-top: 5px;;
+}
+.chatCont span{
+    border: 1px solid #ccc;
+    float: left;
+    height: 30px;
+    line-height: 37px;
+    margin-left: -1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    cursor: pointer;
+    margin-left:0;
+}
+.criticismBrow{
+    height: 40px !important;
+    line-height:45px !important;
+}
+.publish{
+    border: 1px solid #dcdcdc !important;
+    background-color: #dcdcdc !important;
+    height:40px !important;
+    color: #565656 !important;
+    line-height: 40px !important;
+}
+
+/*qq标签样式  开始*/
+.com_form {
+    width: 100%;
+    overflow: auto;
+}
+.qqFace {
+    background: #fff;
+    padding: 2px;
+    border: 1px #dfe6f6 solid;
+}
+
+.qqFace table td {
+    padding: 0px;
+}
+
+.qqFace table td img {
+    cursor: pointer;
+    border: 1px #fff solid;
+    height: auto;
+    vertical-align: middle;
+}
+
+.qqFace table td img:hover {
+    border: 1px #0066cc solid;
+}
+.allpRight img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+.reply{
+    color: #000;
+    margin-right:5px;
+}
+.replyMan{
+    color: #6fa8a7;
+    margin-right:5px;
+}
+/*qq标签样式  结束*/
+
+.wzRepayDiv{
+    clear: both;
+}
+.browAndMutual>.qqFace{
+    margin-left: -12px;
+}
+
+.browImg{
+    cursor: pointer;
+    *margin-top:15px;
+}
+.uploadImg{
+    *margin-top:0px;
+    cursor: pointer;
+}
+.moreNews{
+    border: 1px solid #ccc;
+    background-color:#f7f7f7;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.moreNews span{
+    margin-left:10px;
+}
+/*中间  结束*/
+
+
+/*右边 开始*/
+.divR{
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    width: 272px;
+}
+.messBoard{
+    border:1px solid #ccc;
+}
+.messTit{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.messBoaTitL{
+    float: left;
+}
+.messBoaTitR{
+    float: right;
+    cursor: pointer;
+}
+.messBoaTitR a{
+    color: #999;
+}
+.messBoaTitR img{
+    margin-left:10px;
+}
+.messLImg{
+    float: left;
+}
+.messLImg img{
+    width:60px;
+    height:60px;
+}
+.messLP{
+    float: left;
+    margin-left:10px;
+}
+.messLDiv{
+    width: 160px;
+ }
+.messDivR{
+    float: right;
+    font-size:12px;
+    color: #666;
+    margin-left: 69px;
+}
+.messLPTwo{
+    font-size:12px;
+    color: #666;
+    clear: both;
+}
+.messDivU{
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.messDivU ul li{
+    clear: both;
+    border-bottom:1px solid #e8e8e8;
+    overflow: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.visit{
+    margin-top:10px;
+    border:1px solid #ccc;
+    text-align: center;
+    overflow: auto;
+}
+
+.visitU ul{
+    padding-left:10px;
+    padding-right:10px;
+}
+.visitU ul li{
+    float: left;
+    margin-right: 5px;
+    margin-top:10px;
+}
+.visitU ul li p img{
+    width:80px;
+    height:80px;
+}
+.visitUDate{
+    color: #8d8d8d;
+}
+.visitPag{
+    clear: both;
+    text-align: left;
+    padding-left:10px;
+}
+ 
+.pagingL{
+    float: left;
+    margin-right:15px;
+    margin-top: 5px;
+    padding-bottom:10px;
+}
+.pagingR{
+    float: left;
+    margin-right:15px;
+    margin-top: 5px;
+}
+.pagingImg{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.pagingImg img{
+    margin-right:5px;
+}
+.popularTea{
+    margin-top:10px;
+    border:1px solid #ccc;
+    overflow: auto;
+}
+.popDivR{
+    margin-left: 14px;
+    margin-top: 5px;
+    float: right;
+}
+.popDivR img{
+    cursor: pointer;
+}
+.popLPOne{
+    float: left;
+    margin-bottom: 8px;
+}
+.messLPOne{
+    margin-bottom: 5px;
+    float: left;
+}
+.popLPTwo p{
+    font-size:12px;
+    color: #666;
+}
+.briskSchool{
+    margin-top:10px;
+    border:1px solid #ccc;
+    overflow: auto;
+}
+.popLImg{
+    float: left;
+}
+.popLImg img{
+    width:80px;
+    height:80px;
+}
+.briskLImg{
+    float: left;
+}
+.briskLImg img{
+    width:80px;
+    height:80px;
+}
+.briskLP{
+    float: left;
+    width:110px;
+    margin-left:10px;
+}
+.etcSchool{
+    float: right;
+}
+.etcSchool p{
+    color: #666;
+    font-size:12px;
+    margin-bottom: 8px;
+}
+.etcSchool p span{
+    font-size:12px;
+    margin-left:2px;
+}
+.briskLPTwo p{
+    color: #666;
+    font-size:12px;
+}
+.briskLPOne{
+    margin-bottom:8px;
+}
+.briskLPTwo{
+
+}
+/*右边 结束*/
+
+/*删除弹出框 开始*/
+.bodyCont span{
+    float: left;
+    font-size: 18px;
+    text-align: left;
+    width: 279px;
+}
+.bodyCont img{
+    float: left;
+}
+.bodyInput{
+    clear: both;
+}
+/*删除弹出框 结束*/

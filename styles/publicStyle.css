@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+a, input, select, textarea {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+button {
+    outline: none;
+    outline: 0;
+    filter: chroma(color=#000000);
+}
+
+img {
+    border: 0 none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 1200px;
+}
+
+/*第一个导航栏 开始*/
+.navigationBar {
+    background-color: #342343;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nevDiv {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.nevDiv ul li {
+    float: left;
+    padding-left: 15px;
+    color: #fff;
+}
+
+.nevDiv a:hover {
+    color: #0980f0;
+}
+
+.nevDiv span {
+    padding-left: 10px;
+}
+
+.nevLeft {
+    float: left;
+}
+
+.nevLeft li a, .nevLeft li span, .nevRight li a {
+    color: #fff;
+}
+
+.nevRight {
+    float: right;
+}
+
+.nevRight img {
+    margin-right: 8px;
+    margin-top: -3px;
+    vertical-align: middle;
+}
+
+/*底部 开始*/
+.footer {
+    background-color: #efefef;
+    clear: both;
+}
+
+.footConcave {
+    margin: 100px auto 0;
+    width: 1030px;
+    overflow: auto;
+}
+
+.footConcave img {
+    vertical-align: text-top;
+}
+
+.footUl {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.footUlL {
+    font-weight: 600;
+}
+
+.footUl p {
+    line-height: 1.7;
+}
+
+.footUl li {
+    float: left;
+    cursor: default;
+    margin-right: 64px;
+}
+
+.scan1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.scan2 {
+    float: left;
+}
+
+.about {
+    margin-right: 0 !important;
+}
+
+.copyright {
+    color: #b7b7b7;
+    clear: both;
+    margin: 18px 50px 30px;
+}
+
+.copyright p {
+    line-height: 1.7;
+}
+
+/*底部 结束*/
+
+/*分页开始*/
+.paging {
+    width: 615px;
+    margin: 0 auto 20px;
+    clear: both;
+    padding-top: 10px;
+}
+
+.paging ul {
+    text-align: center;
+    margin: 2px 0;
+}
+
+.paging ul li {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: inline;
+    list-style: outside none none;
+    margin-right: 7px;
+    padding: 3px 13px;
+    *padding: 0px 14px;
+}
+
+.paging ul li input {
+    margin-left: 5px;
+    *margin-left: 3px;
+    margin-right: 5px;
+    *margin-right: 3px;
+    text-align: center;
+    width: 30px;
+}
+
+.pagingBack {
+    color: #ccc;
+    cursor: not-allowed !important;
+    background-color: #fff !important;
+}
+
+.removeBack {
+    background-color: #fff !important;
+    border: 0 none !important;
+    color: #ea703c !important;
+}
+
+.pagingNumber {
+    cursor: default !important;
+    background-color: #fff !important;
+    border:0px !important;
+}
+/*分页结束*/
+
+/*头部 开始*/
+.logoCon {
+    width: 1200px;
+    height: 96px;
+    margin: 0 auto;
+}
+
+.logoWord img {
+    float: left;
+    margin-top: 24px;
+}
+
+.logoWord span {
+    color: #5b5a5c;
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 37px;
+}
+
+.logoImg {
+    background-color: #fdf6da;
+}
+
+.logoImg p {
+    margin: 0 auto;
+    width: 1200px;
+}
+.logoUlDiv{
+    float: right;
+    margin-top: 25px;
+}
+.logoUlDiv ul li{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+.logoLiWord{
+
+}
+.logoLiNum {
+    margin-top: 5px;
+    color: #656565;
+}
+/*头部 结束*/
+
+/*左边开始*/
+.divL {
+    width: 246px;
+    float: left;
+    position: relative;
+}
+.content {
+    margin-top: 20px;
+}
+
+.contentDiv {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contentL {
+    border: 1px solid #ccc;
+    width: 246px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.contTit {
+    padding: 20px;
+    *padding:20px 15px 0px 15px;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.contL {
+    float: left;
+}
+
+.contR {
+    float: left;
+    color: #585858;
+    margin-left: 10px;
+}
+
+.contRTit {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 28px;
+}
+
+.contRGrade {
+    margin-bottom: 8px;
+}
+
+.contLul {
+    clear: both;
+    padding-top: 15px;
+    *padding-top: 0px;
+}
+
+.liStyOne {
+    padding-left: 0px;
+    padding-right: 27px;
+}
+
+.liStyTwo {
+    padding-left: 28px;
+    padding-right: 28px;
+    *padding-left: 27px;
+    *padding-right: 27px;
+}
+
+.liStyThree {
+    border-right: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 22px !important;
+    *padding-left: 26px !important;
+}
+
+.contLul ul li {
+    border-right: 1px dashed #c7c7c7;
+    float: left;
+}
+
+.numLiP {
+    color: #585858;
+    margin-top: 3px;
+}
+
+.contCont ul li {
+    height: 52px;
+    *margin-top: -4px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.contContBack {
+    background-color: #832c7d;
+}
+
+.contContBack a span {
+    color: #fff;
+}
+
+.contBack {
+    background-color: #832c7d;
+}
+
+.contContBack > .contCliDiv {
+    border: 0px;
+}
+
+.contCliDiv {
+    border-bottom: 1px solid #ebebeb;
+    margin-right: 20px;
+    height: 52px;
+}
+
+.contCliDivS {
+    color: #fff;
+    font-weight: 600;
+}
+
+.contCliDiv img {
+    float: left;
+    margin-top: 15px;
+}
+
+.contCliDiv span {
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.contCliDiv p{
+    float: left;
+    margin-right: 15px;
+    width: 32px;
+}
+
+.contContUl li a {
+    cursor: pointer;
+    float: left;
+    height:38px;
+}
+.contContUl li a span{
+    margin-left: 0;
+}
+
+/*左边结束*/
+.uplL a {
+    font-size: 16px;
+}
+
+.uplL {
+    border-bottom: 2px solid #df5854;
+    float: left;
+    height: 38px;
+}
+
+/*右边头部 按钮*/
+.uplR {
+    background: url("../images/z3.6.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin-top: 13px;
+    width: 78px;
+}
+
+.uplR span {
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    margin-top: -14px;
+}
+
+/*删除 弹出框 开始*/
+.determineFrame {
+    border: 1px solid #d1d1d1;
+    width: 344px !important;
+    background: #fff !important;
+}
+
+.end img {
+    margin-right: 12px;
+    *margin-left: 360px;
+}
+
+.key {
+    margin-top: 10px
+}
+
+.key span {
+    float: left;
+    height: 50px;
+    line-height: 30px;
+    margin-top: -10px;
+    *margin-top: -30px;
+    color: #8d8d8d;
+    width: 367px;
+    *width: 300px;
+}
+
+.bodyCont {
+    margin-top: 46px;
+    *margin-top: 0px;
+    *padding-top: 50px;
+    text-align: center;
+}
+
+.bodyCont img {
+    vertical-align: middle;
+}
+
+.bodyCont span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.bodyInput {
+    margin-right: -16px
+}
+
+.bodyInput input {
+    background-color: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    color: #535353;
+    float: right;
+    height: 34px;
+    line-height: 30px;
+    width: 76px;
+    margin-top: 35px;
+    *margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: -14px;
+    *margin-bottom: 5px;
+}
+
+.bodyInput1 {
+    margin-left: 15px;
+}
+/*删除 弹出框 结束*/
+
+/*中间内容头部 开始*/
+.divCentre {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    *margin-bottom: 0px;
+    width: 941px;
+}
+.addBorder{
+    border: 1px solid #ccc;
+}
+
+.addMarBot {
+    margin-bottom: 30px;
+}
+
+.navigation {
+    border-bottom: 1px solid #ccc;
+    height: 54px;
+    line-height: 54px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navigation ul li {
+    float: left;
+    height: 39px;
+    margin-right: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navigation ul li a {
+    font-size: 16px;
+}
+.thisSelect {
+    border-bottom: 2px solid #ff0000;
+    float: left;
+    height: 37px;
+    margin-right: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.thisSelect a {
+    font-weight: 600;
+}
+/*中间内容头部 结束*/
+
+/*input 中的placeholder支持IE*/
+.my-placeholder {
+    color: #aaa;
+}

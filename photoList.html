@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>相册列表页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/photoList.css">
+    <link rel="stylesheet" type="text/css" href="styles/myAlbum.css">
+    <link rel="stylesheet" type="text/css" href="styles/jquery.reveal.css">
+
+    <script src="scripts/jquery-1.7.1.min.js"></script>
+    <script src="scripts/public.js"></script>
+    <script src="scripts/jquery.reveal.js"></script>
+</head>
+<body>
+<!--头部导航条-->
+<div class="navigationBar">
+    <div class="nevDiv">
+        <ul class="nevLeft">
+            <li><a href="indSpaceHoPage.html">首页</a><span>|</span></li>
+            <li>云资源<span>|</span></li>
+            <li>课件<span>|</span></li>
+            <li>作业<span>|</span></li>
+            <li>试题<span>|</span></li>
+            <li>作文<span>|</span></li>
+            <li>教案<span>|</span></li>
+            <li>音视频<span>|</span></li>
+            <li>班级园地<span>|</span></li>
+            <li>故事说说</li>
+        </ul>
+        <ul class="nevRight">
+            <li>Oregano,</li>
+            <li>个人空间</li>
+            <li>班级空间</li>
+            <li>教学空间</li>
+            <li><img src="images/1.2.png">退出</li>
+        </ul>
+    </div>
+</div>
+<!--logo-->
+<div class="logo">
+    <div class="logoCon">
+        <div class="logoWord">
+            <img src="images/g1.1.png"/>
+            <span>我的个人空间</span>
+        </div>
+    </div>
+    <div class="logoImg">
+        <p><img src="images/g1.png"/></p>
+    </div>
+</div>
+<!--内容-->
+<div class="content">
+    <div class="contentDiv">
+        <!--左边-->
+        <div class="divL">
+            <div class="contentL" id="contentL">
+                <div class="contTit">
+                    <div>
+                        <div class="contL"><a href="#"><img src="images/z1.2.png"/></a></div>
+                        <div class="contR">
+                            <p class="contRTit">秋虫的弹唱</p>
+
+                            <p class="contRGrade">经验：2542</p>
+
+                            <p class="contRWitBean">等级：10级</p>
+                        </div>
+                    </div>
+                    <div class="contLul">
+                        <ul>
+                            <li class="liStyOne">
+                                <p class="wordLiP">说说</p>
+
+                                <p class="numLiP">6820</p>
+                            </li>
+                            <li class="liStyTwo">
+                                <p class="wordLiP">粉丝</p>
+
+                                <p class="numLiP">6820</p>
+                            </li>
+                            <li class="liStyThree">
+                                <p class="wordLiP">关注</p>
+
+                                <p class="numLiP">6820</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contCont">
+                    <ul class="contContUl">
+                        <li name="0" onclick="location='indSpaceHoPage.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.3.png"/>
+                                    <img src="images/g1.3_1.png" style="display: none"/>
+                                </p>
+                                <a href="indSpaceHoPage.html"><span class="contCliDivSpan"
+                                                                    style="margin-top:21px">空间首页</span></a>
+                            </div>
+                        </li>
+                        <li name="1" onclick="location='myClassHave.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.4.png"/>
+                                    <img src="images/g1.4_1.png" style="display: none"/>
+                                </p>
+                                <a href="myClassHave.html"><span class="contCliDivSpan">我的班级</span></a>
+                            </div>
+                        </li>
+                        <li name="2" onclick="location='myTalk.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.5.png"/>
+                                    <img src="images/g1.5_1.png" style="display: none"/>
+                                </p>
+                                <a href="myTalk.html"><span class="contCliDivSpan">我的说说</span></a>
+                            </div>
+                        </li>
+                        <li name="3" onclick="location='myAlbum.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.6.png"/>
+                                    <img src="images/g1.6_1.png" style="display: none"/>
+                                </p>
+                                <a href="myAlbum.html"><span class="contCliDivSpan">我的相册</span></a>
+                            </div>
+                        </li>
+                        <li name="4" onclick="location='messageBoard.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.7.png"/>
+                                    <img src="images/g1.7_1.png" style="display: none"/>
+                                </p>
+                                <a href="messageBoard.html"><span class="contCliDivSpan">留言板</span></a>
+                            </div>
+                        </li>
+                        <li name="5" onclick="location='myConcernTeacher.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.8.png"/>
+                                    <img src="images/g1.8_1.png" style="display: none"/>
+                                </p>
+                                <a href="myConcernTeacher.html"><span class="contCliDivSpan">我的关注</span></a>
+                            </div>
+                        </li>
+                        <li name="6" onclick="location='myFans.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.9.png"/>
+                                    <img src="images/g1.9_1.png" style="display: none"/>
+                                </p>
+                                <a href="myFans.html"><span class="contCliDivSpan">我的粉丝</span></a>
+                            </div>
+                        </li>
+                        <li name="7" onclick="location='myGroups.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g2.png"/>
+                                    <img src="images/g2_1.png" style="display: none"/>
+                                </p>
+                                <a href="myGroups.html"><span class="contCliDivSpan">我的群组</span></a>
+                            </div>
+                        </li>
+                        <li name="8" onclick="location='validationInfo.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g2.1.png"/>
+                                    <img src="images/g2.1_1.png" style="display: none"/>
+                                </p>
+                                <a href="validationInfo.html"><span class="contCliDivSpan">验证信息</span></a>
+                            </div>
+                        </li>
+                        <li name="9" onclick="location='myAccount.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g2.2.png"/>
+                                    <img src="images/g2.2_1.png" style="display: none"/>
+                                </p>
+                                <a href="myAccount.html"><span class="contCliDivSpan">我的账号</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--中间-->
+        <div class="divCentre">
+            <div class="addBorder">
+                <div class="photoTop">
+                    <a href="myAlbum.html">我的相册</a><span> > </span>相册照片列表
+                </div>
+                <div class="photoTopTwo">
+                    <div class="photoLeft">
+                        <div class="photoImgL"><img src="images/g7.8.png"/></div>
+                        <div class="photoWordR">
+                            <div class="photoIdWord">我的个人相册编号007</div>
+                            <div class="photoIdImg">
+                                <p class="photoIdImgL"><a href="uploadPhotosNoAl.html"><img
+                                        src="images/g7.8_2.png"></a></p>
+                                <p class="photoIdImgR"><img src="images/g7.8_1.png"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="photoRight">
+                        <div class="photoDetailsTop">
+                            <div class="photoDetL"><span>216张</span> / 所有人可见 / 2015年5月1日创建-2016年7月1日更新</div>
+                            <div class="photoDetR">浏览量<span>1200</span></div>
+                        </div>
+                        <div class="photoDetailsWord">
+                            往事随风，点点滴滴，历历在目，回忆在最美的瞬间,绽放一树婆娑，光影交错，抬头仰望，天空依旧是 那么的晴朗，
+                            静静引领我来到初秋风拂面夹着微微的寒凉，横扫过那前方的路上。风声阵阵拂思绪，霜丝漫漫画似迷。睁眼不觉年华过，
+                            红枫点点半出戏。
+                        </div>
+                    </div>
+                </div>
+                <div class="photoCont">
+                    <div class="displayText"><p>封面设置成功！</p></div>
+                    <div class="photoCul">
+                        <ul>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_3.png') no-repeat"></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_4.png') no-repeat">></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_3.png') no-repeat"></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_3.png') no-repeat"></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_4.png') no-repeat">></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_3.png') no-repeat"></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_4.png') no-repeat">></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_3.png') no-repeat"></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                            <li>
+                                <div class="dropDownList">
+                                    <div class="dropDiv"><img src="images/a_2_6.png"/></div>
+                                    <div class="downListDiv">
+                                        <ul>
+                                            <li class="editImg">
+                                                <img src="images/g7.8_5.png"/>
+                                                <img src="images/g7.8_6.png" style="display: none;"/>
+                                                编辑
+                                            </li>
+                                            <li class="setCover">
+                                                <img src="images/g7.8_7.png"/>
+                                                <img src="images/g7.8_8.png" style="display: none;"/>
+                                                设为封面
+                                            </li>
+                                            <li class="deleteList">
+                                                <img src="images/g7.8_9.png"/>
+                                                <img src="images/g8.png" style="display: none;"/>
+                                                删除
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="detailsImg" style="background: url('images/g7.8_4.png') no-repeat">></div>
+                                <div class="detailsName">image-001</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="loadIn">加载中....</div>
+                </div>
+                <!--设置 弹出框-->
+                <div id="photoSetUp" class="reveal-modal determineFrame">
+                    <div class="body">
+                        <div class="foundCon">
+                            <table class="foundTable">
+                                <tr>
+                                    <td><span class="asterisk">*</span><span class="createWord">相册名称：</span></td>
+                                    <td>
+                                        <input type="text" class="photoAmeFrame" maxlength="30" value="我的个人相册编号007"/>
+                                    </td>
+                                    <td><p class="wordNum"><span class="albumNameChange">0</span>/30</p></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <span class="createWord textWord">相册描述：</span>
+                                        <textarea maxlength="500" class="photoFrame">往事随风，点点滴滴，历历在目，回忆在最美的瞬间,绽放一树婆娑，光影交错，抬头仰望，天空依旧是 那么的晴朗,静静引领我来到初秋风拂面夹着微微的寒凉，横扫过那前方的路上。风声阵阵拂思绪，霜丝漫漫画似迷。睁眼不觉年华过，
+                                                                    </textarea>
+                                        <p class="wordNum" style="margin-top: 11px;">
+                                            <span class="changeNum">0</span>/<span class="maxNum">500</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top: 2px;*padding-top: 10px;"><span
+                                            class="createWord">查看权限：</span></td>
+                                    <td colspan="2">
+                                        <div class="listP">
+                                            <p class="uplLiL">所有人可见</p>
+                                            <p class="uplLiR"><img src="images/z2.8.png"></p>
+                                            <div class="timeSelect" style="display: none;">
+                                                <p style="display: none;">所有人可见</p>
+                                                <p>仅自己可见</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="operateP">
+                            <p class="closeBut cancelP">取消</p>
+                            <p class="photoKeep">保存</p>
+                        </div>
+                    </div>
+                    <div class="close-reveal-modal album">
+                        <div class="key">
+                            <a class="closePopup closeBut" data-dismiss="modal"><img src="images/z3.png"></a>
+                            <span style="font-size: 18px;">相册信息设置</span>
+                        </div>
+                    </div>
+                </div>
+                <!--编辑 弹出框-->
+                <div id="foundAlbum" class="reveal-modal determineFrame">
+                    <div class="body">
+                        <div class="foundCon">
+                            <table class="foundTable">
+                                <tr>
+                                    <td><span class="asterisk">*</span><span class="createWord">照片名称：</span></td>
+                                    <td>
+                                        <input type="text" class="photoAmeFrame" maxlength="30" value="我的个人相册编号007"/>
+                                    </td>
+                                    <td><p class="wordNum"><span class="albumNameChange">0</span>/30</p></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <span class="createWord textWord">照片描述：</span>
+                                        <textarea maxlength="200" class="photoFrame">往事随风，点点滴滴，历历在目，回忆在最美的瞬间,绽放一树婆娑，光影交错，抬头仰望，天空依旧是 那么的晴朗,静静引领我来到初秋风拂面夹着微微的寒凉，横扫过那前方的路上。风声阵阵拂思绪，霜丝漫漫画似迷。睁眼不觉年华过，
+                                                                    </textarea>
+                                        <p class="wordNum" style="margin-top: 11px;">
+                                            <span class="changeNum">0</span>/<span class="maxNum">200</span>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="operateP">
+                            <!--<p class="closeBut cancelP">取消</p>-->
+                            <p class="photoKeep">保存</p>
+                        </div>
+                    </div>
+                    <div class="close-reveal-modal album">
+                        <div class="key">
+                            <a class="closePopup closeBut" data-dismiss="modal"><img src="images/z3.png"></a>
+                            <span style="font-size: 18px;">编辑照片信息</span>
+                        </div>
+                    </div>
+                </div>
+                <!--删除提醒  弹出框-->
+                <div id="deleteRemind" class="reveal-modal determineFrame">
+                    <div class="body">
+                        <div class="bodyCont">
+                            <img src="images/a_1.1.png">
+                            <p>确定要删除这张照片吗？</p>
+                        </div>
+                        <div class="bodyInput">
+                            <input type="button" value="取消" class="bodyInput1 closeBut">
+                            <input type="button" value="确定" class="keepBut">
+                        </div>
+                    </div>
+                    <div class="close-reveal-modal popTit">
+                        <div class="key">
+                            <a class="closePopup end" data-dismiss="modal"><img src="images/a_1.png"></a>
+                            <span>删除提醒</span>
+                        </div>
+                    </div>
+                </div>
+                <!--查看图片 弹出框-->
+                <div id="viewImg" class="reveal-modal viewImgFrame">
+                    <div class="body">
+                        <div class="bombBox">
+                            <div class="bombTit">
+                                <div class="imgIntroduce">MAGE001,
+                                    上传时间：<span class="uploadTime">2017-1-18</span>,
+                                    拍摄地点：<span class="shootingLocation">暂无</span>
+                                </div>
+                                <div class="closeImg"><img src="images/imgRoll/5.png"/></div>
+                            </div>
+                            <div class="bigPictureCon">
+                                <div class="leftBtnImg btnImg"><img src="images/imgRoll/1.png"/></div>
+                                <div class="centreBigImg">
+                                    <ul >
+                                        <li class="6_1"><img src="images/imgRoll/6_1.png"/></li>
+                                        <li class="6_2"><img src="images/imgRoll/6_2.png"/></li>
+                                        <li class="6_3"><img src="images/imgRoll/6_3.png" /></li>
+                                        <li class="6_4"><img src="images/imgRoll/6_4.png" /></li>
+                                        <li class="6_5"><img src="images/imgRoll/6_5.png" /></li>
+                                        <li class="6_6"><img src="images/imgRoll/6_6.png" /></li>
+                                        <li class="6_7"><img src="images/imgRoll/6_7.png" /></li>
+                                        <li class="6_8"><img src="images/imgRoll/6_8.png" /></li>
+                                        <li class="6_9"><img src="images/imgRoll/6_9.png" /></li>
+                                        <li class="6_10"><img src="images/imgRoll/6_10.png" /></li>
+                                        <li class="6_11"><img src="images/imgRoll/6_11.png" /></li>
+                                        <li class="6_12"><img src="images/imgRoll/6_12.png" /></li>
+                                        <li class="6_13"><img src="images/imgRoll/6_13.png" /></li>
+                                        <li class="6_14"><img src="images/imgRoll/6_14.png" /></li>
+                                        <li class="6_15"><img src="images/imgRoll/6_15.png" /></li>
+                                        <li class="6_16"><img src="images/imgRoll/6_16.png" /></li>
+                                        <li class="6_17"><img src="images/imgRoll/6_17.png" /></li>
+                                        <li class="6_18"><img src="images/imgRoll/6_18.png" /></li>
+                                        <li class="6_19"><img src="images/imgRoll/6_10.png" /></li>
+                                        <li class="6_20"><img src="images/imgRoll/6_11.png" /></li>
+                                        <li class="6_21"><img src="images/imgRoll/6_12.png" /></li>
+                                        <li class="6_22"><img src="images/imgRoll/6_13.png" /></li>
+                                        <li class="6_23"><img src="images/imgRoll/6_14.png" /></li>
+                                        <li class="6_24"><img src="images/imgRoll/6_15.png" /></li>
+                                        <li class="6_25"><img src="images/imgRoll/6_16.png" /></li>
+                                        <li class="6_26"><img src="images/imgRoll/6_17.png" /></li>
+                                        <li class="6_27"><img src="images/imgRoll/6_18.png" /></li>
+                                        <li class="6_28"><img src="images/imgRoll/6_16.png" /></li>
+                                        <li class="6_29"><img src="images/imgRoll/6_17.png" /></li>
+                                        <li class="6_30"><img src="images/imgRoll/6_18.png" /></li>
+                                    </ul>
+                                </div>
+                                <div class="rightBtnImg btnImg"><img src="images/imgRoll/2.png"/></div>
+                            </div>
+                            <div class="pictureName">这是我今天拍的第二张美图</div>
+                            <div class="smallPictureCon">
+                                <div class="smallLeftBtn smallDiv"><img src="images/imgRoll/3.png"/></div>
+                                <div class="smallCentre">
+                                    <ul>
+                                        <li name="6_1.1" class="imgAddBorder"> <img src="images/imgRoll/6_1.1.png"/></li>
+                                        <li name="6_2.1"> <img src="images/imgRoll/6_2.1.png"/></li>
+                                        <li name="6_3.1"> <img src="images/imgRoll/6_3.1.png"/></li>
+                                        <li name="6_4.1"> <img src="images/imgRoll/6_4.1.png"/></li>
+                                        <li name="6_5.1"> <img src="images/imgRoll/6_5.1.png"/></li>
+                                        <li name="6_6.1"> <img src="images/imgRoll/6_6.1.png"/></li>
+                                        <li name="6_7.1"> <img src="images/imgRoll/6_7.1.png"/></li>
+                                        <li name="6_8.1"> <img src="images/imgRoll/6_8.1.png"/></li>
+                                        <li name="6_9.1"> <img src="images/imgRoll/6_9.1.png"/></li>
+                                        <li name="6_10.1"> <img src="images/imgRoll/6_10.1.png"/></li>
+                                        <li name="6_11.1"> <img src="images/imgRoll/6_11.1.png"/></li>
+                                        <li name="6_12.1"> <img src="images/imgRoll/6_12.1.png"/></li>
+                                        <li name="6_13.1"> <img src="images/imgRoll/6_13.1.png"/></li>
+                                        <li name="6_14.1"> <img src="images/imgRoll/6_14.1.png"/></li>
+                                        <li name="6_15.1"> <img src="images/imgRoll/6_15.1.png"/></li>
+                                        <li name="6_16.1"> <img src="images/imgRoll/6_16.1.png"/></li>
+                                        <li name="6_17.1"> <img src="images/imgRoll/6_17.1.png"/></li>
+                                        <li name="6_18.1"> <img src="images/imgRoll/6_18.1.png"/></li>
+                                        <li name="6_19.1"> <img src="images/imgRoll/6_10.1.png"/></li>
+                                        <li name="6_20.1"> <img src="images/imgRoll/6_11.1.png"/></li>
+                                        <li name="6_21.1"> <img src="images/imgRoll/6_12.1.png"/></li>
+                                        <li name="6_22.1"> <img src="images/imgRoll/6_13.1.png"/></li>
+                                        <li name="6_23.1"> <img src="images/imgRoll/6_14.1.png"/></li>
+                                        <li name="6_24.1"> <img src="images/imgRoll/6_15.1.png"/></li>
+                                        <li name="6_25.1"> <img src="images/imgRoll/6_16.1.png"/></li>
+                                        <li name="6_26.1"> <img src="images/imgRoll/6_17.1.png"/></li>
+                                        <li name="6_27.1"> <img src="images/imgRoll/6_18.1.png"/></li>
+                                        <li name="6_28.1"> <img src="images/imgRoll/6_16.1.png"/></li>
+                                        <li name="6_29.1"> <img src="images/imgRoll/6_17.1.png"/></li>
+                                        <li name="6_30.1"> <img src="images/imgRoll/6_18.1.png"/></li>
+                                    </ul>
+                                </div>
+                                <div class="smallRightBtn smallDiv"><img src="images/imgRoll/4.png"/></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="close-reveal-modal">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+    <div class="footConcave">
+        <img src="images/a1.7.png">
+        <div class="footUl">
+            <ul>
+                <li>
+                    <p class="footUlL">联系方式</p>
+                    <p>电话：010-82530000,82530000</p>
+                    <p>传真：010-82530000</p>
+                    <p>邮编：100084</p>
+                    <p>技术支持：互联天下科技发展(深圳)有限公司</p>
+                    <p>主办合作：陕西省渭南市教育局</p>
+                </li>
+                <li>
+                    <div class="scan1"><img src="images/5.2.png"></div>
+                    <div class="scan2">
+                        <p class="fontWeight">扫描下载官方APP</p>
+                        <p><a href="#"><img src="images/5.3.png"></a></p>
+                        <p><a href="#"><img src="images/5.4.png"></a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="fontWeight">官方微博</p>
+                    <p><img src="images/5.5.png"></p>
+                    <p><a href="#"><img src="images/5.6.png"></a></p>
+                </li>
+                <li>
+                    <p class="fontWeight">官方微信</p>
+                    <p><img src="images/5.7.png"></p>
+                </li>
+                <li class="about">
+                    <p class="fontWeight">关于我们</p>
+                    <p><a href="#">合作发展</a></p>
+                    <p><a href="#">服务接口</a></p>
+                    <p><a href="#">加入我们</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>版权所有：北京飞利信科技股份有限公司</p>
+            <p>Copyrigth@2016</p>
+            <p>京ICP备00000000号-0</p>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        selectMenu('3');
+        $('.dropDownList').click(function(){
+            $('#viewImg').reveal();//打开查看图片弹出框
+        })
+        $('.closeImg img').click(function(){
+            $(".close-reveal-modal").click();//关闭窗口
+        })
+        $('.smallCentre ul li:nth-child(14n)').attr('style', 'margin-right:0px;');
+
+        //大图片翻页
+        var liLength = $('.centreBigImg ul li').length; //li的个数
+        var ulPages = liLength / 1;//ul页数
+        var conWidth = $('.centreBigImg').width();//内容div的宽度
+        var animateUl = $('.centreBigImg ul');//要执行动画的ul
+        var page = 1;//当前页数
+
+        //点击小图片更改大图的索引值,保持大图片依然可以正常翻页
+        function thisPageFun(){
+            var deletePx=parseInt(animateUl.css('marginLeft')).toString(); //获取当前ul的marginLeft的值
+            var removeNeg=deletePx.replace('-','');//将负值中的-号去掉
+            var indexAddOne=(removeNeg/conWidth)+1; //得到索引值+1
+            page=indexAddOne;
+        }
+        $('.leftBtnImg').click(function () {  //左边按钮
+            if (!animateUl.is(':animated')) {
+                thisPageFun();
+                thisPage=Math.ceil((page-1)/14);
+                smallCenUl.animate({marginLeft: '-' + smallCenWidth*(thisPage-1)}, 'slow');
+
+                if (page == 1) {
+                    alert('第一张');
+                    $('.smallCentre ul li').eq(0).addClass('imgAddBorder').siblings().removeClass('imgAddBorder');
+                    return false;
+                }
+                if (page > 1) { //当前页数大于1
+                    $('.smallCentre ul li').eq(page-2).addClass('imgAddBorder').siblings().removeClass('imgAddBorder');
+                    animateUl.animate({marginLeft: '+=' + conWidth}, 'slow');
+                    page--;
+                }
+            }
+        });
+        $('.rightBtnImg').click(function () {//右边按钮
+            if (!animateUl.is(':animated')) {
+                thisPageFun();
+                thisPage=Math.floor(page/14)+1;
+                smallCenUl.animate({marginLeft: '-' + smallCenWidth*(thisPage-1)}, 'slow');
+
+                if (page == ulPages) { //当前页数等于总页数
+                    alert('最后一张');
+                    $('.smallCentre ul li').eq(liLength-1).addClass('imgAddBorder').siblings().removeClass('imgAddBorder');
+                    return false;
+                }
+                if (page != ulPages) { //当前页数不等于总页数
+                    $('.smallCentre ul li').eq(page).addClass('imgAddBorder').siblings().removeClass('imgAddBorder');
+                    animateUl.animate({marginLeft: '-=' + conWidth}, 'slow');
+                    page++;
+                }
+            }
+        });
+
+
+        //小图片翻页
+        var smallCenLi=$('.smallCentre ul li').length;//li的个数
+        var smallCenPage=Math.ceil(smallCenLi/14);//总页数
+        var smallCenWidth=$('.smallCentre').width();//内容区域的宽度
+        var smallCenUl=$('.smallCentre ul');//要执行动画的ul
+        var thisPage=1;//当前页数
+
+        //点击小图左右按钮时,更改小图当前索引
+        function smallThisPage() {
+            var smallCenUl=parseInt($('.smallCentre ul').css('marginLeft')).toString();
+            var smallRemoveNeg=smallCenUl.replace('-','');//将负值中的-号去掉
+            var smallIndexAddOne=(smallRemoveNeg/smallCenWidth)+1; //得到索引值+1
+            thisPage=smallIndexAddOne;
+        }
+
+        $('.smallLeftBtn  img').click(function () { //点击左边按钮
+            if (!animateUl.is(':animated')) {
+                smallThisPage();
+                if (thisPage == 1) {
+                    alert('第一页');
+                    return false;
+                }
+                if (thisPage > 1) { //当前页数大于1
+                    smallCenUl.animate({marginLeft: '+=' + smallCenWidth}, 'slow');
+                    thisPage --;
+                }
+            }
+        });
+        $('.smallRightBtn  img').click(function () { //点击右边按钮
+            if (!animateUl.is(':animated')) {
+                smallThisPage();
+                if (thisPage == smallCenPage) { //当前页数等于总页数
+                    alert('最后一页');
+                    return false;
+                }
+                if (thisPage != smallCenPage) { //当前页数不等于总页数
+                    smallCenUl.animate({marginLeft: '-=' + smallCenWidth}, 'slow');
+                    thisPage++;
+                }
+            }
+        });
+        //点击小图
+        $('.smallCentre ul li').click(function () {
+            var thisName=$(this).attr('name').replace ('.1', ''); //通过小图片找到对应的大图片
+            var marLeft=($('.'+thisName).index())*879;
+            animateUl.animate({marginLeft:  "-"+marLeft}, 'slow');
+
+            //给选中的小图片加边框
+            $(this).addClass('imgAddBorder').siblings().removeClass('imgAddBorder');
+        });
+    });
+</script>
+</body>
+</html>

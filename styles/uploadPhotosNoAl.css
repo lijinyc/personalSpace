@@ -1,0 +1,222 @@
+.uploadToAlbum {
+    padding: 20px 10px 10px;
+}
+
+.uploadWord {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.noPhotoAlbum {
+    float: left;
+    background: url("../images/g7.4.png") no-repeat;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.noPhotoAlbum a {
+    text-decoration: underline;
+    color: #666;
+}
+
+.uploadCont {
+    clear: both;
+    text-align: center;
+    margin-bottom: 269px;;
+    margin-top: 269px;
+}
+
+.optPin {
+    background: url("../images/g7.5.png") no-repeat;
+    color: #fff;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    margin-left: 368px;
+    *margin-left: 0px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.cannotEdit {
+    background: url("../images/g7.5_1.png") no-repeat;
+    color: #fff;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+    margin-left: 368px;
+    *margin-left: 0px;
+    width: 200px;
+}
+
+.optPinWord {
+    color: #666;
+    font-size: 18px;
+}
+
+/*下拉框开始*/
+.uplTerm {
+    padding-right: 25px;
+    height: 44px;
+    *height: 53px;
+}
+
+.uploadList ul {
+    margin-top: -3px;
+}
+
+.uploadList ul li {
+    cursor: pointer;
+    float: left;
+    width: 208px;
+}
+
+.uplDivImg {
+    float: left;
+    text-align: center;
+}
+
+.uplDivImg img {
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 3px;
+    width: 40px;
+    *margin-top: 5px;
+}
+
+.addMargin img {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.uplLiR {
+    float: right;
+    margin-right: 5px;
+}
+
+.uplLiR > img {
+    cursor: pointer;
+    margin-left: 17px;
+    *margin-top: 20px;
+    vertical-align: middle;
+}
+
+.uplCont {
+    clear: both;
+}
+
+.uplCont table {
+    width: 100%;
+}
+
+.uplCont table tr {
+    text-align: center;
+}
+
+.uplTdP {
+    color: #989898;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+
+.uplTdP span {
+    margin-right: 18px;
+}
+
+.uplCont table span {
+    color: #989898;
+}
+
+.uplCont table tr th {
+    background-color: #f8f8f8;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.uplCont table tr td {
+    height: 84px;
+    border-bottom: 1px dashed #e6e5e5;
+}
+
+.uplCont table tr td a:hover {
+    color: #0980f0;
+}
+
+.uplContSpan {
+    color: #989898;
+}
+
+.uplContSpan:hover {
+    color: #0980f0;
+}
+
+.timeSelect {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-top: 40px;
+    position: absolute;
+    width: 208px;
+    z-index: 10;
+    *margin-left: -93px;
+}
+
+.uploadDiv {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-top: 40px;
+    position: absolute;
+    width: 208px;
+    z-index: 10;
+    *margin-left: -145px;
+}
+
+.uploadDiv dl dd {
+    border-bottom: 1px dashed #d9d9d9;
+    clear: both;
+    padding-left: 5px;
+    text-align: left;
+}
+
+.uploadDiv dl dd:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.uploadDiv div {
+    border: 0px;
+    height: 38px;
+    line-height: 38px;
+}
+
+.leftImg {
+    float: left;
+}
+
+.leftImg img {
+    vertical-align: bottom;
+    *margin-top: 13px;
+}
+
+.rightWord {
+    float: left;
+    margin-left: 5px;
+}
+
+.rightWord p {
+    font-size: 13px;
+}
+
+.rightWord p span {
+    font-size: 13px;
+}
+
+/*下拉框结束*/

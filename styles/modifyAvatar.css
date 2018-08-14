@@ -1,0 +1,32 @@
+.modifyCon{
+    margin: 30px 30px 0px;
+    overflow: auto;
+    height:636px;
+}
+.modifyLeft{
+    float: left;
+    margin-right: 30px;
+}
+.modifyLeft img{
+    width:195px;
+    height:195px;
+}
+.uploadPhotos{
+    border: 1px dashed #ccc;
+    float: left;
+    height: 432px;
+    margin: 0 auto;
+    overflow: auto;
+    width: 622px;
+}
+.uploadPhotos p{
+    background: url("../images/g9.3.png") no-repeat;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin: 195px auto 0;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+}

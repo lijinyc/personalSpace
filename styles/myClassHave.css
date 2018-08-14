@@ -1,0 +1,132 @@
+.newInfo{
+    padding-left:10px;
+    padding-right:10px;
+    height:40px;
+    line-height:40px;
+    border-bottom:1px solid #ccc;
+}
+.newInfo img{
+    vertical-align: middle;
+}
+.newInfo span{
+    margin-left:5px;
+    margin-right:5px;
+}
+.newInfo a{
+    margin-left:5px;
+}
+.classInfo{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.classInfoUl li{
+    background: url("../images/g5.2.png") no-repeat;
+    position: relative;
+    float: left;
+    height: 300px;
+    margin-right: 9px;
+    padding-top: 17px;
+    width: 455px;
+}
+.classTitle{
+   padding-left:15px;
+    padding-right:15px;
+}
+.className{
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+.setUp{
+    float: right;
+}
+.classCon{
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 11px;
+    *padding-top: 0px;
+}
+.classConL{
+    float: left;
+    margin-right: 20px;
+}
+.classConL img{
+    width:180px;
+    height:180px;
+}
+.classConR{
+    float: left;
+}
+.classConR p{
+    margin-bottom: 10px;
+    color: #5a5a5a;
+}
+.classOperate{
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 14px;
+    *padding-top: 0px;
+}
+.clOpL{
+    float: left;
+}
+.clOpL p{
+    float: left;
+    width:90px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    color: #fff;
+}
+.clOpL p a{
+    color: #fff;
+}
+.clDismiss{
+    margin-right:10px;
+    background: url("../images/g5.6.png") no-repeat;
+}
+.clAttorn{
+    background: url("../images/g5.7.png") no-repeat;
+}
+.bowOut{
+    background: url("../images/g5.7.png") no-repeat;
+}
+.getIntoCla{
+    float: right;
+}
+.getIntoCla a{
+    color: #ff0000;
+}
+.getIntoCla a img{
+    margin-left:5px;
+    vertical-align: middle;
+}
+/*弹出框中的ul 转让*/
+.confirmTraCont{
+    *margin-top:50px !important;
+}
+.bodyContUl {
+    /*border: 1px solid;*/
+    margin-left: -20px;
+    width: 380px;
+}
+.bodyContUl li{
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    margin-right: 18px;
+    *margin-right: 10px;
+}
+.bodyContUl li input{
+
+}
+.bodyContUl li span{
+    font-size:14px;
+    margin-left: 1px;
+}
+.confirmTransfer{
+    *margin-bottom:15px !important;
+}

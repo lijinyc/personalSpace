@@ -1,0 +1,596 @@
+.myAccountTop {
+    border-bottom: 1px dashed #ccc;
+    margin: 10px;
+    overflow: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 921px;
+}
+
+.accountLeft {
+    float: left;
+    margin-left: 340px;
+    margin-right: 10px;
+}
+
+.accountLeft img {
+    height: 100px;
+    width: 100px;
+}
+
+.accountRight {
+    float: left;
+    color: #333;
+}
+
+.accountRight img {
+    vertical-align: middle;
+}
+
+.empiricalValue {
+    margin-top: 34px;
+    font-size: 12px;
+}
+
+.wealthValue {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+/*表格开始*/
+.accountDivTab {
+    width: 941px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 941px;
+}
+
+.accountDivTab table {
+    margin: 0 auto;
+    width: 647px;
+}
+
+.accountDivTab table tr td {
+    height: 50px;
+    /*border:1px solid;*/
+}
+
+.accountDivTab table tr td input {
+    width: 340px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.requiredColor {
+    color: #ff0000;
+}
+
+.aHemline {
+    text-decoration: underline;
+    color: #ef542d;
+}
+
+.regCheck {
+    padding-top: 15px;
+}
+
+.regCheck ul li {
+    float: left;
+    width: 111px;
+}
+
+.regCheck ul li input {
+    float: left;
+
+}
+
+.regCheck ul li p {
+    float: left;
+    line-height: 2.8;
+    margin-top: -13px;
+}
+
+.regCheck input {
+    width: 15px !important;
+    height: 15px !important;
+    line-height: 15px !important;
+
+}
+
+.accountDivTab table tr textarea {
+    height: 300px;
+    line-height: 2;
+    margin-bottom: 10px;
+    margin-left: 11px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    text-indent: 2em;
+    width: 445px;
+}
+
+.preserveBut {
+    background: url("../images/g9.3.png") no-repeat;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-left:100px;
+    cursor: pointer;
+}
+
+.shortInp input {
+    float: left;
+    width: 160px !important;
+}
+.shortInp span{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tdWord {
+    text-align: right;
+    padding-right:10px;
+}
+.sexTd input{
+    width: 20px !important;
+}
+
+.sexMan{
+    float: left;
+    width: 60px;
+    margin-top: -3px;
+}
+.sexMan p{
+    float: left;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.sexMan input{
+    float: left;
+    height: 12px !important;
+    margin-top:10px;
+}
+.sexWoman{
+    float: left;
+    width: 60px;
+    margin-top: -3px;
+}
+.sexWoman input{
+    float: left;
+    height: 12px !important;
+    margin-top:10px;
+}
+.sexWoman p{
+    margin-top: 7px;
+    float: left;
+}
+.createWord.textWord{
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.wordNum {
+    float: right;
+    font-size: 14px !important;
+    width: 78px;
+    margin-top: 313px;
+    *margin-top:-30px;
+}
+/*下拉框开始*/
+.uplTerm {
+    padding-right: 25px;
+    height: 44px;
+    *height: 53px;
+}
+
+.accountUpDiv {
+    height: 0px;
+}
+.createSchoolTerm {
+    /*height: 0px;*/
+}
+
+.uplTermL ul {
+    margin-top: 10px;
+}
+
+.uplTermL ul li {
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 12px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 136px;
+}
+.accountUpDiv ul{
+    *margin-top:0px;
+}
+.accountUpDiv ul li {
+    margin-right: 2px;
+    padding-left: 8px;
+    width: 65px;
+    line-height: 30px;
+    height: 30px;
+}
+.createSchoolTerm ul li{
+    margin-right: 2px;
+    padding-left: 8px;
+    width: 81px;
+    line-height: 30px;
+    height: 30px;
+}
+
+.uplLiL {
+    float: left;
+    width: 56px;
+    text-align: center;
+}
+
+.areaP {
+    float: left;
+    text-align: left;
+    width: 50px;
+}
+.creSchoolSelect{
+    float: left;
+    text-align: left;
+    width: 60px;
+}
+
+.uplLiR {
+    float: right;
+    margin-left: 5px;
+}
+
+.uplLiR > img {
+    cursor: pointer;
+    margin-left: 5px;
+    *margin-top: 18px;
+}
+
+.uplCont {
+    clear: both;
+}
+
+.uplCont table {
+    width: 100%;
+}
+
+.uplCont table tr {
+    text-align: center;
+}
+
+.uplTdP {
+    color: #989898;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+
+.uplTdP span {
+    margin-right: 18px;
+}
+
+.uplCont table span {
+    color: #989898;
+}
+
+.uplCont table tr th {
+    background-color: #f8f8f8;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.uplCont table tr td {
+    height: 84px;
+    border-bottom: 1px dashed #e6e5e5;
+}
+
+.uplCont table tr td a:hover {
+    color: #0980f0;
+}
+
+.uplContSpan {
+    color: #989898;
+}
+
+.uplContSpan:hover {
+    color: #0980f0;
+}
+
+.timeSelect {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -16px;
+    *margin-left: -72px;
+    margin-top: 40px;
+    position: absolute;
+    width: 161px;
+    z-index: 10;
+}
+
+.timeSelectArea {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -9px;
+    *margin-left: -59px;
+    margin-top: 30px;
+    position: absolute;
+    width: 83px;
+    z-index: 10;
+}
+.createSchoolTime{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -9px;
+    *margin-left: -59px;
+    margin-top: 30px;
+    position: absolute;
+    width: 99px;
+    z-index: 10;
+}
+.schoolType{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -9px;
+    *margin-left: -69px;
+    margin-top: 30px;
+    position: absolute;
+    width: 99px;
+    z-index: 10;
+}
+.timeSelect p {
+    height: 40px;
+    border-bottom: 1px solid #d9d9d9;
+    line-height: 40px;
+    text-align: center;
+}
+
+.timeSelectArea p {
+    line-height: 30px;
+    height: 30px;
+}
+.createSchoolTime p{
+    line-height: 30px;
+    height: 30px;
+}
+.schoolType p{
+    line-height: 30px;
+    height: 30px;
+}
+
+.timeSelect p:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+/*下拉框结束*/
+
+/*选择学校弹出框*/
+.key {
+    background: url("../images/5_4.png");
+    height: 40px;
+    width: 700px;
+}
+
+.key span {
+    color: #fff !important;
+    float: left;
+    font-size: 18px;
+    margin-left: 43%;
+    margin-top: -28px !important;
+    width: 72px;
+}
+
+.key span {
+
+    height: 50px !important;
+    line-height: 30px !important;
+
+}
+
+.key a > img {
+    float: right;
+    margin-left: 230px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.key a > span {
+    float: right;
+    margin-left: 230px;
+    margin-top: 9px;
+    margin-right: -9px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reveal-modal .close-reveal-modal {
+    top: -38px !important;
+    left: -1px;
+    right: 0 !important;
+    line-height: normal !important;
+}
+
+.reveal-modal {
+    border-radius: 0px !important;
+    background: #fff !important;
+    border: 1px solid #dadada !important;
+    z-index: 1000 !important;
+}
+
+.choiceLeft {
+    float: left;
+}
+
+.choiceUl li a {
+    color: #8b8b8b;
+}
+
+.choiceUl li {
+    float: left;
+    border: 0px solid #fff;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.choUlBor {
+    border-bottom: 2px solid #21498f !important;
+}
+
+.choUlBor a {
+    color: #000 !important;
+}
+
+.choiceRight {
+    float: right;
+    margin-bottom: 40px;
+    *margin-bottom: 0px;
+}
+
+.choiceRight a {
+    text-decoration: underline;
+}
+
+.lookup {
+    clear: both;
+}
+
+.lookup input {
+    width: 285px;
+    *width: 275px;
+    height: 29px;
+    *height: 28px;
+    line-height: 29px;
+    *line-height: 28px;
+    margin-right: 12px;
+    float: left;
+}
+
+.lookup select {
+    width: 81px;
+    margin-right: 2px;
+    float: left;
+}
+
+.lookup img {
+    vertical-align: middle;
+    margin-left: 8px;
+    cursor: pointer;
+    *float: right;
+}
+
+.choiceTable {
+    padding-top: 20px;
+    *padding-top: 8px;
+    *clear: both;
+}
+
+.choiceTable tr td {
+    line-height: 2;
+    cursor: pointer;
+}
+
+.choiceTable img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.choiceUL1 {
+    overflow: auto;
+}
+
+.choiceUL1 li {
+    float: left;
+    margin-bottom: 15px;
+    width: 203px;
+
+}
+
+.choiceTdUl {
+    padding-top: 30px;
+    *padding-top: 40px;
+    margin-left: 34px;
+}
+
+.choiceTdUl span {
+    /*margin-top: -5px;*/
+    float: left;
+    margin-left: 60px;
+    margin-right: 10px;
+
+}
+
+.choiceTdUl ul li {
+    float: left;
+    margin-right: 5px;
+    background-color: #d2d2d2;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.choiceTdUl ul li a {
+    color: #fff;
+}
+
+.choiceLiBack {
+    background-color: #21498f !important;
+    margin-left: 0px !important;
+}
+
+.choiceRight span {
+    color: #8b8b8b;
+}
+
+/*创建学校弹出框*/
+.setUpTable table {
+    margin: 0 auto;
+}
+
+.setUpTable tr td {
+    height: 58px;
+}
+
+.setUpTable input {
+    width: 307px;
+    height: 32px;
+    line-height: 32px
+}
+
+.setUpTable table p {
+    text-align: center;
+    /*margin-top: 33px;*/
+    cursor: pointer;
+}
+
+.setUpTable span {
+    color: red;
+    margin-right: 4px;
+}
+
+.setUpTable select {
+    width: 101px;
+}
+
+.tckWord {
+    margin-left: 10px;
+    color: #000 !important;
+    *margin-top: -5px;
+}

@@ -1,0 +1,493 @@
+.newInfo {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.newInfo img {
+    vertical-align: middle;
+}
+
+.newInfo span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.newInfo a {
+    margin-left: 5px;
+}
+
+/*下拉框开始*/
+.uplTerm {
+    /*padding-right: 25px;*/
+    /*height: 44px;*/
+    /**height: 53px;*/
+}
+
+.uplTermL ul {
+    margin-top: 10px;
+}
+
+.uplTermL ul li {
+    border: 1px solid #d9d9d9;
+    height: 27px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 77px;
+    /*width: 91px;*/
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.uplLiL {
+    float: left;
+    width: 56px;
+    text-align: center;
+}
+
+.uplLiR {
+    float: left;
+    margin-left: 5px;
+}
+
+.uplLiR > img {
+    cursor: pointer;
+    margin-left: 5px;
+    *margin-top: 12px;
+}
+
+
+.uplCont {
+    clear: both;
+}
+
+.uplCont table {
+    width: 100%;
+}
+
+.uplCont table tr {
+    text-align: center;
+}
+
+.uplTdP {
+    color: #989898;
+    margin-top: 2px;
+    margin-left: 26px;
+}
+
+.uplTdP span {
+    margin-right: 18px;
+}
+
+.uplCont table span {
+    color: #989898;
+}
+
+.uplCont table tr th {
+    background-color: #f8f8f8;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.uplCont table tr td {
+    height: 84px;
+    border-bottom: 1px dashed #e6e5e5;
+}
+
+.uplCont table tr td a:hover {
+    color: #0980f0;
+}
+
+.uplContSpan {
+    color: #989898;
+}
+
+.uplContSpan:hover {
+    color: #0980f0;
+}
+
+.timeSelect {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    margin-left: -16px;
+    *margin-left: -93px;
+    margin-top: 27px;
+    position: absolute;
+    width: 102px;
+    /*width: 116px;*/
+    display: none;
+    z-index:10;
+}
+
+.timeSelect p {
+    height: 33px;
+    border-bottom: 1px solid #d9d9d9;
+    line-height: 33px;
+    text-align: center;
+}
+
+.timeSelect p:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+/*下拉框结束*/
+
+.createClaDiv {
+    width: 941px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    width: 941px;
+}
+
+.createClaDiv table {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.createClaDiv table tr td input {
+    width: 551px;
+    height: 40px;
+    line-height:40px;
+}
+
+.createClaDiv table tr textarea {
+    height: 300px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 551px;
+}
+
+.createWord {
+    color: #000 !important;
+    *margin-top: -5px;
+}
+
+.textWord {
+    float: left !important;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+.createImg {
+    height: 150px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    width: 172px;
+    float: left;
+    cursor: pointer;
+}
+
+.asterisk {
+    color: #fe0000;
+}
+
+.createClaDiv p {
+    color: #333;
+}
+
+.confirmCre {
+    background: url("../images/g5.7.png") no-repeat;
+    width: 90px;
+    height: 30px;
+    line-height:30px;
+    color: #fff !important;
+    text-align: center;
+    margin: 20px auto;
+}
+.confirmCre a{
+    color: #fff;
+}
+
+/*选择学校弹出框*/
+.timeSelectArea{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -9px;
+    *margin-left: -70px;
+    margin-top: 30px;
+    position: absolute;
+    width: 83px;
+    z-index: 10;
+}
+.createSchoolTerm ul li{
+    margin-right: 2px;
+    padding-left: 8px;
+    width: 81px;
+    line-height: 30px;
+    padding-top:0px;
+    height: 30px;
+}
+.areaP {
+    float: left;
+    text-align: left;
+    width: 50px;
+}
+.createDivUl ul li{
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 2px;
+    padding-left: 8px;
+    width: 65px;
+    padding-top:0px;
+}
+.key {
+    background: url("../images/5_4.png");
+    height: 40px;
+    width: 700px;
+}
+
+.key span {
+    color: #fff !important;
+    float: left;
+    font-size: 18px;
+    margin-left: 43%;
+    margin-top: -28px !important;
+    width: 72px;
+}
+
+.key span {
+
+    height: 50px !important;
+    line-height: 30px !important;
+
+}
+
+.key a > img {
+    float: right;
+    margin-left: 230px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.key a > span {
+    float: right;
+    margin-left: 230px;
+    margin-top: 9px;
+    margin-right: -9px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reveal-modal .close-reveal-modal {
+    top: -38px !important;
+    left: -1px;
+    right: 0 !important;
+    line-height: normal !important;
+}
+
+.reveal-modal {
+    border-radius: 0px !important;
+    background: #fff !important;
+    border: 1px solid #dadada !important;
+    z-index: 1000 !important;
+}
+
+.choiceLeft {
+    float: left;
+}
+
+.choiceUl li a {
+    color: #8b8b8b;
+}
+
+.choiceUl li {
+    float: left;
+    border: 0px solid #fff;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.choUlBor {
+    border-bottom: 2px solid #21498f !important;
+}
+
+.choUlBor a {
+    color: #000 !important;
+}
+
+.choiceRight {
+    float: right;
+    margin-bottom: 40px;
+    *margin-bottom: 0px;
+}
+
+.choiceRight a {
+    text-decoration: underline;
+}
+
+.lookup {
+    clear: both;
+}
+
+.lookup input {
+    width: 285px;
+    *width: 275px;
+    height: 29px;
+    *height: 28px;
+    line-height: 29px;
+    *line-height: 28px;
+    margin-right: 12px;
+    float: left;
+}
+
+.lookup select {
+    width: 81px;
+    margin-right: 2px;
+    float: left;
+}
+
+.lookup img {
+    vertical-align: middle;
+    margin-left: 8px;
+    cursor: pointer;
+    *float: right;
+}
+
+.choiceTable {
+    padding-top: 20px;
+    *padding-top: 0px;
+    *clear: both;
+}
+
+.choiceTable tr td {
+    line-height: 2;
+    cursor: pointer;
+}
+
+.choiceTable img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.choiceUL1 {
+    overflow: auto;
+}
+
+.choiceUL1 li {
+    float: left;
+    margin-bottom: 15px;
+    width: 203px;
+
+}
+
+.choiceTdUl {
+    padding-top: 30px;
+    *padding-top: 40px;
+    margin-left: 34px;
+}
+
+.choiceTdUl span {
+    /*margin-top: -5px;*/
+    float: left;
+    margin-left: 60px;
+    margin-right: 10px;
+
+}
+
+.choiceTdUl ul li {
+    float: left;
+    margin-right: 5px;
+    background-color: #d2d2d2;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.choiceTdUl ul li a {
+    color: #fff;
+}
+
+.choiceLiBack {
+    background-color: #21498f !important;
+    margin-left: 0px !important;
+}
+
+.choiceRight span {
+    color: #8b8b8b;
+}
+.njTd{
+    *height:60px;
+
+}
+.njDiv{
+    *margin-top:-10px;
+}
+.njPImg img{
+    *margin-top:8px;
+}
+
+/*创建学校弹出框*/
+.schoolType{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -9px;
+    *margin-left: -65px;
+    margin-top: 27px;
+    position: absolute;
+    width: 99px;
+    z-index: 10;
+}
+.createSchoolTime{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    display: none;
+    margin-left: -9px;
+    *margin-left: -59px;
+    margin-top: 30px;
+    position: absolute;
+    width: 99px;
+    z-index: 10;
+}
+.setUpTable table {
+    margin: 0 auto;
+}
+
+.setUpTable tr td {
+    height: 58px;
+}
+
+.setUpTable input {
+    width: 307px;
+    height: 32px;
+    line-height: 32px
+}
+
+.setUpTable table p {
+    text-align: center;
+    /*margin-top: 33px;*/
+    cursor: pointer;
+}
+
+.setUpTable span {
+    color: red;
+    margin-right: 4px;
+}
+
+.setUpTable select {
+    width: 101px;
+}
+
+.tckWord {
+    margin-left: 10px;
+    color: #000 !important;
+    *margin-top: -5px;
+}

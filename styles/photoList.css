@@ -1,0 +1,334 @@
+.photoTop {
+    height: 54px;
+    line-height: 54px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+}
+
+.photoTop span,.photoTop a{
+    font-size: 16px;
+    color: #333;
+}
+
+
+.photoTopTwo {
+    padding: 15px 10px 10px;
+}
+
+.photoLeft {
+    float: left;
+    padding-bottom: 10px;
+}
+
+.photoImgL {
+    float: left;
+}
+
+.photoWordR {
+    float: left;
+    margin-left: 10px;
+}
+
+.photoIdWord {
+    color: #333;
+    font-size: 24px;
+}
+
+.photoIdImg {
+    margin-top: 10px;
+}
+
+.photoIdImg p {
+    float: left;
+}
+.photoIdImg p  img{
+    cursor: pointer;
+}
+
+.photoIdImgL {
+    margin-right: 5px;
+}
+
+.photoRight {
+    float: right;
+    line-height: 1.7;
+    width: 529px;
+}
+
+.photoDetL {
+    color: #666;
+    font-size: 12px;
+    float: left;
+}
+
+.photoDetL span {
+    color: #333;
+    font-size: 12px;
+}
+
+.photoDetR {
+    color: #e64004;
+    float: right;
+    font-size: 12px;
+}
+
+.photoDetR span {
+    font-size: 12px;
+    color: #e64004;
+}
+
+.photoDetailsWord {
+    clear: both;
+    color: #999;
+    font-size: 12px;
+}
+
+.photoDetailsTop {
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.photoCont {
+    clear: both;
+    overflow: auto;
+}
+
+.photoCul {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px;
+}
+
+.photoCul > ul > li {
+    float: left;
+    margin-right: 12px;
+    margin-top: 15px;
+    text-align: center;
+    width: 174px;
+}
+
+.photoCul > ul {
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.detailsImg {
+    width: 174px;
+    height: 135px;
+}
+
+.detailsName {
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -5px;
+}
+
+.dropDiv {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-bottom: 0px;
+    width: 23px;
+    cursor: pointer;
+    margin-left: 137px;
+    height: 20px;
+    display: none;
+    z-index: 3000;
+}
+
+.dropDiv img {
+    *margin-top: 8px;
+}
+
+.dropDownList {
+    margin-top: 5px;
+    *margin-top: 0px;
+    *padding-top:5px;
+    position: absolute;
+    width: 172px;
+    height: 124px;
+    cursor: pointer;
+}
+
+.downListDiv {
+    border: 1px solid #e5e5e5;
+    float: right;
+    background: #fff;
+    margin-right: 10px;
+    *margin-right: 5px;
+    display: none;
+}
+
+.downListDiv ul li {
+    cursor: pointer;
+    float: none;
+    padding-left: 13px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    text-align: left;
+    width: 94px;
+}
+
+.downListDiv ul li:hover {
+    background: #ffac10;
+    color: #fff;
+}
+.downListDiv ul li img{
+    vertical-align: middle;
+}
+
+.displayText {
+    width: 917px;
+    position: absolute;
+    display:none;
+}
+
+.displayText > p {
+    color: #ccc;
+    font-size: 18px;
+    margin-left: 427px;
+}
+.loadIn{
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    clear: both;
+    color: #333;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 10px 20px;
+    text-align: center;
+}
+.photoFrame{
+    height:200px !important;
+}
+#photoSetUp {
+    width: 550px !important;
+}
+
+/*弹出框 保存*/
+.photoKeep {
+    background:url("../images/g7.2.png") no-repeat;
+    margin-right: 30px;
+}
+/*查看大图 弹出框(开始)*/
+.bombBox{
+    width:1000px;
+    height: 660px;
+    margin:0 auto;
+}
+.bombTit{
+    margin: 20px 40px 20px 58.5px;
+    overflow: auto;
+}
+.imgIntroduce{
+    float: left;
+}
+.closeImg{
+    float: right;
+    cursor: pointer;
+}
+.bigPictureCon{
+    clear: both;
+    margin-left:14.5px;
+    margin-right:14.5px;
+}
+.btnImg{
+    margin-top:215px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.leftBtnImg{
+    float: left;
+}
+.leftBtnImg img{
+    cursor: pointer;
+}
+.centreBigImg{
+    float: left;
+    width:879px;
+    overflow: hidden;
+    height:474px;
+}
+.centreBigImg ul{
+    overflow: hidden;
+    height:474px;
+}
+.centreBigImg img{
+    width:879px;
+    height:474px;
+}
+.centreBigImg ul li{
+    float: left;
+}
+.rightBtnImg{
+    float: left;
+}
+.rightBtnImg img{
+    cursor: pointer;
+}
+.pictureName{
+    clear: both;
+    margin-bottom: 10px;
+    margin-left: 58.5px;
+    margin-right: 40px;
+    overflow: auto;
+    padding-top: 25px;
+    *padding-top: 0px;
+}
+.smallPictureCon{
+    overflow: auto;
+}
+
+.smallLeftBtn.smallDiv > img {
+    margin-left: 24.5px;
+    cursor: pointer;
+}
+.smallRightBtn.smallDiv > img {
+    margin-left: 6px;
+    cursor: pointer;
+}
+.smallLeftBtn{
+    float: left;
+    margin-top: 13px;
+    width: 49px;
+}
+.smallRightBtn{
+    float: left;
+    margin-top: 13px;
+    width: 49px;
+}
+.smallCentre{
+    float: left;
+    height: 49px;
+    margin-top: 3px;
+    width: 896px;
+    overflow: hidden;
+}
+.smallCentre ul{
+    height:45px;
+}
+.smallCentre ul li{
+    cursor: pointer;
+    float: left;
+    width:60px;
+    height:45px;
+    border:2px solid #fff;
+}
+.smallCentre ul li img{
+    width: 60px;
+    height:45px;
+}
+.imgAddBorder{
+    border: 2px solid #000 !important;
+}
+.viewImgFrame{
+    border: 1px solid #d1d1d1;
+    width: 1000px !important;
+    background: #fff !important;
+    left: 36% !important;
+    padding: 0px !important;
+}
+/*查看大图 弹出框(结束)*/

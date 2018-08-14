@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>个人空间首页</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/indSpaceHoPage.css">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/jquery.reveal.css">
+
+    <script src="scripts/jquery-1.7.1.min.js"></script>
+    <script src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery.qqFace.js"></script>
+    <script type="text/javascript" src="scripts/jquery-browser.js"></script>
+    <script type="text/javascript" src="scripts/jquery.reveal.js"></script>
+</head>
+<body>
+<!--头部导航条-->
+<div class="navigationBar">
+    <div class="nevDiv">
+        <ul class="nevLeft">
+            <li><a href="indSpaceHoPage.html">首页</a><span>|</span></li>
+            <li>云资源<span>|</span></li>
+            <li>课件<span>|</span></li>
+            <li>作业<span>|</span></li>
+            <li>试题<span>|</span></li>
+            <li>作文<span>|</span></li>
+            <li>教案<span>|</span></li>
+            <li>音视频<span>|</span></li>
+            <li>班级园地<span>|</span></li>
+            <li>故事说说</li>
+        </ul>
+        <ul class="nevRight">
+            <li>Oregano,</li>
+            <li>个人空间</li>
+            <li>班级空间</li>
+            <li>教学空间</li>
+            <li><img src="images/1.2.png">退出</li>
+        </ul>
+    </div>
+</div>
+<!--logo-->
+<div class="logo">
+    <div class="logoCon">
+        <div class="logoWord">
+            <img src="images/g1.1.png"/>
+            <span>我的个人空间</span>
+        </div>
+        <div class="logoUlDiv">
+            <ul>
+                <li>
+                    <div class="logoLiWord">周五</div>
+                    <div class="logoLiNum">6.3</div>
+                </li>
+                <li>
+                    <div class="logoLiWord">今日浏览</div>
+                    <div class="logoLiNum">2360</div>
+                </li>
+                <li>
+                    <div class="logoLiWord">全部浏览</div>
+                    <div class="logoLiNum">2360</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="logoImg">
+        <p><img src="images/g1.png"/></p>
+    </div>
+</div>
+<!--内容-->
+<div class="content">
+    <div class="contentDiv">
+        <!--左边-->
+        <div class="divL">
+            <div class="contentL" id="contentL">
+                <div class="contTit">
+                    <div>
+                        <div class="contL"><a href="#"><img src="images/z1.2.png"/></a></div>
+                        <div class="contR">
+                            <p class="contRTit">秋虫的弹唱</p>
+
+                            <p class="contRGrade">经验：2542</p>
+
+                            <p class="contRWitBean">等级：10级</p>
+                        </div>
+                    </div>
+                    <div class="contLul">
+                        <ul>
+                            <li class="liStyOne">
+                                <p class="wordLiP">说说</p>
+
+                                <p class="numLiP">6820</p>
+                            </li>
+                            <li class="liStyTwo">
+                                <p class="wordLiP">粉丝</p>
+
+                                <p class="numLiP">6820</p>
+                            </li>
+                            <li class="liStyThree">
+                                <p class="wordLiP">关注</p>
+
+                                <p class="numLiP">6820</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contCont">
+                    <ul class="contContUl">
+                        <li name="0" onclick="location='indSpaceHoPage.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.3.png"/>
+                                    <img src="images/g1.3_1.png" style="display: none"/>
+                                </p>
+                                <a href="indSpaceHoPage.html"><span class="contCliDivSpan"
+                                                                    style="margin-top:21px">空间首页</span></a>
+                            </div>
+                        </li>
+                        <li name="1" onclick="location='myClassHave.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.4.png"/>
+                                    <img src="images/g1.4_1.png" style="display: none"/>
+                                </p>
+                                <a href="myClassHave.html"><span class="contCliDivSpan">我的班级</span></a>
+                            </div>
+                        </li>
+                        <li name="2" onclick="location='myTalk.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.5.png"/>
+                                    <img src="images/g1.5_1.png" style="display: none"/>
+                                </p>
+                                <a href="myTalk.html"><span class="contCliDivSpan">我的说说</span></a>
+                            </div>
+                        </li>
+                        <li name="3" onclick="location='myAlbum.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.6.png"/>
+                                    <img src="images/g1.6_1.png" style="display: none"/>
+                                </p>
+                                <a href="myAlbum.html"><span class="contCliDivSpan">我的相册</span></a>
+                            </div>
+                        </li>
+                        <li name="4" onclick="location='messageBoard.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.7.png"/>
+                                    <img src="images/g1.7_1.png" style="display: none"/>
+                                </p>
+                                <a href="messageBoard.html"><span class="contCliDivSpan">留言板</span></a>
+                            </div>
+                        </li>
+                        <li name="5" onclick="location='myConcernTeacher.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.8.png"/>
+                                    <img src="images/g1.8_1.png" style="display: none"/>
+                                </p>
+                                <a href="myConcernTeacher.html"><span class="contCliDivSpan">我的关注</span></a>
+                            </div>
+                        </li>
+                        <li name="6" onclick="location='myFans.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g1.9.png"/>
+                                    <img src="images/g1.9_1.png" style="display: none"/>
+                                </p>
+                                <a href="myFans.html"><span class="contCliDivSpan">我的粉丝</span></a>
+                            </div>
+                        </li>
+                        <li name="7" onclick="location='myGroups.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g2.png"/>
+                                    <img src="images/g2_1.png" style="display: none"/>
+                                </p>
+                                <a href="myGroups.html"><span class="contCliDivSpan">我的群组</span></a>
+                            </div>
+                        </li>
+                        <li name="8" onclick="location='validationInfo.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g2.1.png"/>
+                                    <img src="images/g2.1_1.png" style="display: none"/>
+                                </p>
+                                <a href="validationInfo.html"><span class="contCliDivSpan">验证信息</span></a>
+                            </div>
+                        </li>
+                        <li name="9" onclick="location='myAccount.html'">
+                            <div class="contCliDiv">
+                                <p>
+                                    <img src="images/g2.2.png"/>
+                                    <img src="images/g2.2_1.png" style="display: none"/>
+                                </p>
+                                <a href="myAccount.html"><span class="contCliDivSpan">我的账号</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--中间-->
+        <div class="divCentre">
+            <!--分享-->
+            <div class="shareEvents">
+                <div class="shareTit">
+                    <div class="shareWord">有什么新鲜事想分享给大家</div>
+                    <div class="shareNum"><span>0</span>/<span>500</span></div>
+                </div>
+                <div class="writeCont" contenteditable="true"></div>
+                <div class="shareBottom">
+                    <div class="browAndMutual">
+                        <textarea id="saytext" name="saytext" style="display:none;"></textarea>
+                        <div class="brow emotion"><img src="images/a_5_3.png" title="表情" class="browImg"/></div>
+                        <div class="mutually">
+                            <input type="file" id="btn_file" style="display:none">
+                            <img src="images/g3.3.png" title="图片" class="uploadImg"/>
+                        </div>
+                    </div>
+                    <div class="termAndEnter">
+                        <div class="term">
+                            <select>
+                                <option>所有人可见</option>
+                                <option>仅自己可见</option>
+                            </select>
+                        </div>
+                        <div class="enterInto">分享</div>
+                    </div>
+                </div>
+            </div>
+            <!--全部动态-->
+            <div class="allDynamic">
+                <div class="allDyTit">
+                    <div class="messBoaTitL">全部动态</div>
+                </div>
+                <div class="allDyCont">
+                    <!--发布人 信息-->
+                    <div class="utterer">
+                        <div class="uttererImg"><img src="images/g3.5.png"/></div>
+                        <div class="uttererNa">
+                            <div class="uttName">秋虫的弹唱</div>
+                            <div class="uttDate">11月15号 <span>18:11</span></div>
+                        </div>
+                    </div>
+                    <!--发布内容-->
+                    <div class="issueCont">
+                        今年初夏，曲终人散 ——写给四年同窗好友 轻声细语缠绵了时光，轻弹浅唱黯淡了流年。那些明灭相随的离合悲欢，都在这一季里化作一纸云烟。
+                        不知不觉，已到了初夏。伴随着惊雷和雨滴的声音，和雨滴的声音，才想起当时是自己把时间想的过于仁慈，其实，不然。
+                    </div>
+                    <!--发布的图片-->
+                    <div class="issueImg">
+                        <ul>
+                            <li><img src="images/g3.6.png"/></li>
+                            <li><img src="images/g3.8.png"/></li>
+                            <li><img src="images/g3.7.png"/></li>
+                        </ul>
+                    </div>
+                    <!--操作-->
+                    <div class="operate">
+                        <div class="criticism">
+                            <p class="criticL" onclick="wzpl(this)"><img
+                                    src="images/g4.png"/><span>评论</span>（<span>3</span>）</p>
+
+                            <p class="criticR">
+                                <img src="images/g3.9.png"/>
+                                <span class="helpSpan">赞（<span>4</span>）</span>
+                                <span class="cancelSpan" style="display:none">取消赞（<span>3</span>）</span>
+                            </p>
+
+                            <p class="criticRDel">
+                                <a href="#" class="big-link" data-reveal-id="deleteConfirm"><img
+                                        src="images/g4.1.png"/><span>删除</span>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="whoPraise">
+                            <ul>
+                                <li><a href="#"><img src="images/g4.2.png"/></a></li>
+                                <li><img src="images/g4.3.png"/></li>
+                                <li><img src="images/g4.4.png"/></li>
+                                <li><img src="images/g4.5.png"/></li>
+                                <li><img src="images/g4.6.png"/></li>
+                            </ul>
+                        </div>
+                        <!--评论-->
+                        <div class="allPl">
+                            <ul>
+                                <li id="0">
+                                    <div class="allPLeft"><img src="images/g4.7.png"/></div>
+                                    <div class="allpRight">
+                                        <p><span class="allPCon">王小小</span>：本周六我们双亲都忙，派孩子的姥姥去参加</p>
+
+                                        <div class="allPlDiv">
+                                            <span class="allpDate">10:08</span>
+                                            <span class="replySpan" onclick="pl(this)">
+                                                                          <img src="images/g4.8.png" title="评论"/>
+                                                                    </span>
+                                            <span class="deleteDiscuss">
+                                                        <a href="#" class="big-link" data-reveal-id="deleteConfirm">
+                                                            <img src="images/g4.9.png" title="删除"/>
+                                                        </a>
+                                                    </span>
+                                        </div>
+                                    </div>
+                                    <ul class="allPlulTwo">
+                                        <li>
+                                            <div class="allPLeft"><img src="images/g4.7.png"/></div>
+                                            <div class="allpRight">
+                                                <p>
+                                                    <span class='allPCon'>王小1</span>
+                                                    <span class='reply'>回复</span>
+                                                    <span class='replyMan'>王小小</span>
+                                                    ：本周六我们双亲都忙，派孩子的姥姥去参加
+                                                <div class="allPlDiv">
+                                                    <span class="allpDate">10:08</span>
+                                                    <span class="replySpan" onclick="pl(this)">
+                                                                               <img src="images/g4.8.png" title="评论"/>
+                                                                            </span>
+                                                    <span class="deleteDiscuss">
+                                                                  <a href="#" class="big-link"
+                                                                     data-reveal-id="deleteConfirm">
+                                                                     <img src="images/g4.9.png" title="删除"/>
+                                                                  </a>
+                                                            </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <div class="allPLeft"><img src="images/g4.7.png"/></div>
+                                    <div class="allpRight">
+                                        <p><span class="allPCon">王小小</span>：本周六我们双亲都忙，派孩子的姥姥去参加</p>
+
+                                        <div class="allPlDiv">
+                                            <span class="allpDate">10:08</span>
+                                            <span class="replySpan" onclick="pl(this)">
+                                                                          <img src="images/g4.8.png" title="评论"/>
+                                                                    </span>
+                                            <span class="deleteDiscuss">
+                                                        <a href="#" class="big-link" data-reveal-id="deleteConfirm">
+                                                            <img src="images/g4.9.png" title="删除"/>
+                                                        </a>
+                                                    </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="allSpCont">
+                    <!--发布人 信息-->
+                    <div class="utterer">
+                        <div class="uttererImg"><img src="images/g3.5.png"/></div>
+                        <div class="uttererNa">
+                            <div class="uttName">秋虫的弹唱</div>
+                            <div class="uttDate">11月15号 <span>18:11</span></div>
+                        </div>
+                    </div>
+                    <!--发布内容-->
+                    <div class="issueCont">
+                        今年初夏，曲终人散 ——写给四年同窗好友 轻声细语缠绵了时光，轻弹浅唱黯淡了流年。那些明灭相随的离合悲欢，都在这一季里化作一纸云烟。
+                    </div>
+                    <!--发布的图片-->
+                    <div class="issueImg">
+                        <ul>
+                            <li><img src="images/g5.png"/></li>
+                        </ul>
+                    </div>
+                    <!--操作-->
+                    <div class="operate">
+                        <div class="criticism">
+                            <p class="criticL" onclick="wzpl(this)"><img
+                                    src="images/g4.png"/><span>评论</span>（<span>3</span>）</p>
+
+                            <p class="criticR">
+                                <img src="images/g3.9.png"/>
+                                <span class="helpSpan">赞（<span>4</span>）</span>
+                                <span class="cancelSpan" style="display:none">取消赞（<span>3</span>）</span>
+                            </p>
+
+                            <p class="criticRDel">
+                                <a href="#" class="big-link" data-reveal-id="deleteConfirm">
+                                    <img src="images/g4.1.png"/><span>删除</span>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="whoPraise">
+                            <ul>
+                                <li><img src="images/g4.2.png"/></li>
+                                <li><img src="images/g4.3.png"/></li>
+                                <li><img src="images/g4.4.png"/></li>
+                                <li><img src="images/g4.5.png"/></li>
+                                <li><img src="images/g4.6.png"/></li>
+                            </ul>
+                        </div>
+                        <!--评论-->
+                        <div class="allPl">
+                            <ul>
+                                <li>
+                                    <div class="allPLeft"><img src="images/g4.7.png"/></div>
+                                    <div class="allpRight">
+                                        <p><span class="allPCon">王小小</span>：本周六我们双亲都忙，派孩子的姥姥去参加</p>
+
+                                        <div class="allPlDiv">
+                                            <span class="allpDate">10:08</span>
+                                            <span class="replySpan" onclick="pl(this)">
+                                                                          <img src="images/g4.8.png" title="评论"/>
+                                                                    </span>
+                                            <span class="deleteDiscuss">
+                                                         <a href="#" class="big-link" data-reveal-id="deleteConfirm">
+                                                             <img src="images/g4.9.png" title="删除"/>
+                                                         </a>
+                                                    </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--加载中-->
+            <div class="moreNews">加载中<span>......</span></div>
+        </div>
+        <!--右边-->
+        <div class="divR">
+            <!--留言板-->
+            <div class="messBoard">
+                <div class="messTit">
+                    <div class="messBoaTitL">留言板</div>
+                    <div class="messBoaTitR"><a href="messageBoard.html">更多<img src="images/g2.3.png"></a></div>
+                </div>
+                <div class="messDivU">
+                    <ul>
+                        <li>
+                            <div class="messDivL">
+                                <div class="messLImg"><img src="images/g2.4.png"/></div>
+                                <div class="messLP">
+                                    <div>
+                                        <p class="messLPOne">秋虫的弹唱</p> 
+                                        <div class="messDivR">18:11</div>
+                                    </div>
+                                    <p class="messLPTwo">过来踩踩，雁过留声</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="messDivL">
+                                <div class="messLImg"><img src="images/g2.4.png"/></div>
+                                <div class="messLP">
+                                    <div>
+                                        <p class="messLPOne">秋虫的弹唱</p> 
+                                        <div class="messDivR">14:31</div>
+                                    </div>
+                                    <p class="messLPTwo">过来踩踩，雁过留声</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="messDivL">
+                                <div class="messLImg"><img src="images/g2.4.png"/></div>
+                                <div class="messLP">
+                                    <div>
+                                        <p class="messLPOne">秋虫的弹唱</p> 
+                                        <div class="messDivR">13:09</div>
+                                    </div>
+                                    <p class="messLPTwo">过来踩踩，雁过留声</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--最新访问-->
+            <div class="visit">
+                <div class="messTit">
+                    <div class="messBoaTitL">最新访问</div>
+                </div>
+                <div class="visitU">
+                    <ul>
+                        <li>
+                            <p><img src="images/g2.5.png"/></p> 
+                            <p class="visitUName">晨曦之美</p> 
+                            <p class="visitUDate">11:30</p>
+                        </li>
+                        <li>
+                            <p><img src="images/g2.6.png"/></p> 
+                            <p class="visitUName">晨曦之美</p> 
+                            <p class="visitUDate">11:30</p>
+                        </li>
+                        <li>
+                            <p><img src="images/g2.7.png"/></p> 
+                            <p class="visitUName">晨曦之美</p> 
+                            <p class="visitUDate">11:30</p>
+                        </li>
+                        <li>
+                            <p><img src="images/g2.7.png"/></p> 
+                            <p class="visitUName">晨曦之美</p> 
+                            <p class="visitUDate">11:30</p>
+                        </li>
+                        <li>
+                            <p><img src="images/g2.8.png"/></p> 
+                            <p class="visitUName">晨曦之美</p> 
+                            <p class="visitUDate">11:30</p>
+                        </li>
+                        <li>
+                            <p><img src="images/g2.5.png"/></p> 
+                            <p class="visitUName">晨曦之美</p> 
+                            <p class="visitUDate">11:30</p>
+                        </li>
+                    </ul>
+                    <div class="visitPag">
+                        <p class="pagingL"><a href="#"><img src="images/g2.9.png"/></a></p> 
+                        <p class="pagingR"><a href="#"><img src="images/g3.png"/></a></p>
+                    </div>
+                </div>
+            </div>
+            <!--人气老师-->
+            <div class="popularTea">
+                <div class="messTit">
+                    <div class="messBoaTitL">人气老师</div>
+                </div>
+                <div class="messDivU">
+                    <ul>
+                        <li>
+                            <div class="messDivL">
+                                <div class="popLImg">
+                                      <img src="images/g2.8.png"/>
+                                </div>
+                                <div class="messLP messLDiv">
+                                    <div>
+                                        <p class="popLPOne">秋虫的弹唱</p>
+
+                                        <div class="popDivR">
+                                            <img src="images/g3.2.png"/>
+                                            <img src="images/g3.2_1.png" style="display: none;"/>
+                                        </div>
+                                    </div>
+                                    <div class="popLPTwo">
+                                        <p>小学老师</p> 
+                                        <p>渭南市北塘实验小学</p> 
+                                        <p>粉丝 200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="messDivL">
+                                <div class="popLImg">
+                                      <img src="images/g2.8.png"/>
+                                </div>
+                                <div class="messLP messLDiv">
+                                    <div>
+                                        <p class="popLPOne">秋虫的弹唱</p>
+
+                                        <div class="popDivR">
+                                            <img src="images/g3.2.png"/>
+                                            <img src="images/g3.2_1.png" style="display: none;"/>
+                                        </div>
+                                    </div>
+                                    <div class="popLPTwo">
+                                        <p>小学老师</p> 
+                                        <p>渭南市北塘实验小学</p> 
+                                        <p>粉丝 200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="messDivL">
+                                <div class="popLImg">
+                                      <img src="images/g2.8.png"/>
+                                </div>
+                                <div class="messLP messLDiv">
+                                    <div>
+                                        <p class="popLPOne">秋虫的弹唱</p>
+
+                                        <div class="popDivR">
+                                            <img src="images/g3.2.png"/>
+                                            <img src="images/g3.2_1.png" style="display: none;"/>
+                                        </div>
+                                    </div>
+                                    <div class="popLPTwo">
+                                        <p>小学老师</p> 
+                                        <p>渭南市北塘实验小学</p> 
+                                        <p>粉丝 200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--活跃同学-->
+            <div class="briskSchool">
+                <div class="messTit">
+                    <div class="messBoaTitL">活跃同学</div>
+                </div>
+                <div class="messDivU">
+                    <ul>
+                        <li>
+                            <div class="messDivL">
+                                <div class="popLImg">
+                                      <img src="images/g2.8.png"/>
+                                </div>
+                                <div class="messLP messLDiv">
+                                    <div>
+                                        <p class="popLPOne">秋虫的弹唱</p> 
+                                        <div class="popDivR">
+                                            <img src="images/g3.2.png"/>
+                                            <img src="images/g3.2_1.png" style="display: none;"/>
+                                        </div>
+                                    </div>
+                                    <div class="popLPTwo">
+                                        <p>小学老师</p> 
+                                        <p>渭南市北塘实验小学</p> 
+                                        <p>粉丝 200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="messDivL">
+                                <div class="popLImg">
+                                      <img src="images/g2.8.png"/>
+                                </div>
+                                <div class="messLP messLDiv">
+                                    <div>
+                                        <p class="popLPOne">秋虫的弹唱</p> 
+                                        <div class="popDivR">
+                                            <img src="images/g3.2.png"/>
+                                            <img src="images/g3.2_1.png" style="display: none;"/>
+                                        </div>
+                                    </div>
+                                    <div class="popLPTwo">
+                                        <p>小学老师</p> 
+                                        <p>渭南市北塘实验小学</p> 
+                                        <p>粉丝 200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="messDivL">
+                                <div class="popLImg">
+                                      <img src="images/g2.8.png"/>
+                                </div>
+                                <div class="messLP messLDiv">
+                                    <div>
+                                        <p class="popLPOne">秋虫的弹唱</p> 
+                                        <div class="popDivR">
+                                            <img src="images/g3.2.png"/>
+                                            <img src="images/g3.2_1.png" style="display: none;"/>
+                                        </div>
+                                    </div>
+                                    <div class="popLPTwo">
+                                        <p>小学老师</p> 
+                                        <p>渭南市北塘实验小学</p> 
+                                        <p>粉丝 200</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--删除确认  弹出框-->
+        <div id="deleteConfirm" class="reveal-modal determineFrame">
+            <div class="body">
+                <div class="bodyCont">
+                    <img src="images/a_1.1.png">
+                    <span>确定删除该条记录吗？删除操作不可恢复。</span>
+                </div>
+                <div class="bodyInput">
+                    <input type="button" value="取消" class="closeBut">
+                    <input type="button" value="确定" class="bodyInput1" style="margin-right: 10px;">
+                </div>
+            </div>
+            <div class="close-reveal-modal popTit">
+                <div class="key">
+                    <a class="closePopup end" data-dismiss="modal"><img src="images/a_1.png"></a>
+                    <span>删除确认</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+    <div class="footConcave">
+        <img src="images/a1.7.png">
+        <div class="footUl">
+            <ul>
+                <li>
+                    <p class="footUlL">联系方式</p>
+                    <p>电话：010-82530000,82530000</p>
+                    <p>传真：010-82530000</p>
+                    <p>邮编：100084</p>
+                    <p>技术支持：互联天下科技发展(深圳)有限公司</p>
+                    <p>主办合作：陕西省渭南市教育局</p>
+                </li>
+                <li>
+                    <div class="scan1"><img src="images/5.2.png"></div>
+                    <div class="scan2">
+                        <p class="fontWeight">扫描下载官方APP</p>
+                        <p><a href="#"><img src="images/5.3.png"></a></p>
+                        <p><a href="#"><img src="images/5.4.png"></a></p>
+                    </div>
+                </li>
+                <li>
+                    <p class="fontWeight">官方微博</p>
+                    <p><img src="images/5.5.png"></p>
+                    <p><a href="#"><img src="images/5.6.png"></a></p>
+                </li>
+                <li>
+                    <p class="fontWeight">官方微信</p>
+                    <p><img src="images/5.7.png"></p>
+                </li>
+                <li class="about">
+                    <p class="fontWeight">关于我们</p>
+                    <p><a href="#">合作发展</a></p>
+                    <p><a href="#">服务接口</a></p>
+                    <p><a href="#">加入我们</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>版权所有：北京飞利信科技股份有限公司</p>
+            <p>Copyrigth@2016</p>
+            <p>京ICP备00000000号-0</p>
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        selectMenu('0');
+        // 中间部分 对于文章进行评论
+        function wzpl(wz) {
+            $(wz).siblings('.wzRepayDiv').remove();//删除评论框，预防评论框重复出现
+            var wzRepay = $("<div class='wzRepayDiv'></div>");
+            $(wz).parent().append(wzRepay);
+
+            repayArea(wzRepay, repayCallback);
+            function repayCallback(text) {
+//                alert($(wz).html());
+                //创建回复内容格式
+                var addLi = "<li><div class='allPLeft'><img src='images/g4.7.png'></div>" +
+                        "<div class='allpRight'>" +
+                        "<p><span class='allPCon'>王小小</span>：" + text + "</p>" +
+                        "<div class='allPlDiv'>" +
+                        "<span class='allpDate'>10:08</span>" +
+                        "<span class='replySpan' onclick='pl(this)'><img src='images/g4.8.png' title='评论'/></span>" +
+                        "<span class='deleteDiscuss'>" +
+                        "<a href='#' class='big-link' data-reveal-id='deleteConfirm'>" +
+                        "<img src='images/g4.9.png' title='删除'/>" +
+                        "</a>" +
+                        "</span></div>" +
+                        "</div></li>";
+                $(wz).parent().siblings('.allPl').children('ul').prepend(addLi);
+                $('.wzRepayDiv').remove();
+            }
+
+        }
+
+        window.wzpl = wzpl;
+        //中间部分 对于评论进行评论
+        function pl(pl) {
+            idNum = $(pl).parent().parent().parent(); //当前li
+            whoReplyName = $(pl).parent().parent().children('p').children('.allPCon').text(); //回复谁的评论，名字
+
+            $(".allPl ul li ul .liLabel").remove();//删除评论框，预防评论框重复出现
+
+            //添加一个回复区域
+            var addChatCont = $("<li class='liLabel'></li>");
+            var addUl = "<ul class='allPlulTwo'></ul>";
+            var pdUl = idNum.find('ul'); //查看当前li下是否存在UL
+
+            if (idNum.parent().is(".allPlulTwo")) {
+                idNum.append(addChatCont);
+            } else {
+                if (pdUl.length == 0) {
+                    idNum.append(addUl);
+                    idNum.find('ul').append(addChatCont); //找到对应的li，将评论框添加进去
+                } else {
+                    pdUl.append(addChatCont); //找到对应的li，将评论框添加进去
+                }
+            }
+
+            repayArea(addChatCont, repayCallback);
+            function repayCallback(text) { //text获取框里面的内容
+
+                //创建回复内容格式
+                var addLi = "<li><div class='allPLeft'><img src='images/g4.7.png'></div>" +
+                        "<div class='allpRight'>" +
+                        "<p><span class='allPCon'>李小小</span>" +
+                        "<span  class='reply'>回复</span>" +
+                        "<span class='replyMan'>" + whoReplyName + "</span>：" + text + "</p>" +
+                        "<div class='allPlDiv'>" +
+                        "<span class='allpDate'>10:08</span>" +
+                        "<span class='replySpan'  onclick='pl(this)'><img src='images/g4.8.png' /></span>" +
+                        "<span><a href='#' class='big-link' data-reveal-id='deleteConfirm'><img src='images/g4.9.png' /></a></span></div>" +
+                        "</div></li>";
+                //判断当前元素的父亲是否存在class=allPlulTwo
+                if (idNum.parent().is(".allPlulTwo")) {
+                    idNum.parent().append(addLi);
+                } else {
+                    idNum.children("ul").append(addLi);
+                }
+
+                $('.liLabel').remove();
+            }
+
+        }
+
+        window.pl = pl;
+        //回复框 el回复框应该展现的地方,fun点击回复时所触发的事件
+        function repayArea(el, fun) {
+            //创建回复框
+            var addChatCont = "<div class='chatCont'>" +
+                    "<div id='show' contenteditable='true'></div>" +
+                    "<div class='meetingDiv'>" +
+                    "<div class='com_form'>" +
+                    "<textarea id='saytext' name='saytext' style='display:none;'></textarea>" +
+                    "<span class='emotion'><img src='images/a_5_3.png' title='表情'></span>" +
+                    "<p class='replyP'>回复</p>" +
+                    "</div>" +
+                    "</div>" +
+                    "</div>";
+            el.append(addChatCont);
+
+            face($('.emotion'), faceCallback);
+            function faceCallback(thisImg) {
+                $("#show").html($('#show').html() + thisImg);
+            }
+
+            //点击回复按钮
+            $('.replyP').click(function () {
+                var show = $('#show').html(); //获取评论内容
+                $('#show').text("");
+                fun(show);
+            });
+        }
+
+        //分享文章
+        face($('.brow'), browAddSeat);
+        function browAddSeat(thisImg) {
+            $(".writeCont").html($('.writeCont').html() + thisImg);
+        }
+
+        //点击分享按钮
+        $('.enterInto').click(function () {
+            var writeCont = $('.writeCont').html();
+            $('.writeCont').text("");
+            //动态
+            var trends = "<div class='allDyCont'>" +
+                    "<div class='utterer'>" +
+                    "<div class='uttererImg'><img src='images/g3.5.png'></div>" +
+                    "<div class='uttererNa'><div class='uttName'>Gxiangyu （郭星宇 老师）</div><div class='uttDate'>11月15号 <span>18:11</span></div></div>" +
+                    "<div class='issueCont'>" + writeCont + "</div>" +
+                    "<div class='issueImg'>图片</div>" +
+                    "<div class='operate'>" +
+                    "<div class='criticism'>" +
+                    "<p class='criticL' onclick='wzpl(this)'><img src='images/g4.png'><span>评论</span>（<span>3</span>)</p>" +
+                    "<p class='criticR'>" +
+                    "<img src='images/g3.9.png'/><span class='helpSpan'>赞（<span>4</span>）</span>" +
+                    "<span class='cancelSpan' style='display:none'>取消赞（<span>3</span>）</span>" +
+                    "</p>" +
+                    "<p class='criticRDel'><a href='#' class='big-link' data-reveal-id='deleteConfirm'><img src='images/g4.1.png'><span>删除</span></a></p>" +
+                    "</div>" +
+                    "<div class='whoPraise'><ul><li><img src='images/g4.2.png'></li></ul></div>" +
+                    "<div class='allPl'><ul><li></li></ul></div></div></div></div>";
+            $('.allDynamic>div:eq(1)').before(trends);
+            $('.allDynamic>div:gt(1)').removeClass('allDyCont').addClass('allSpCont');
+
+        });
+
+        //qq表情图
+        function face(el, fun) {
+            //标签图标
+            el.qqFace({
+                id: 'facebox',
+                assign: 'saytext',
+                path: 'images/qqExpression/'	//表情存放的路径
+            });
+
+            //点击表情按钮
+            el.click(function () {
+                // el.unbind('click');
+                $('#saytext').val('');//清空该元素中的内容，预防表情图片重复出现
+                var browImg = $('.emotion').siblings('div').children('table').children('tbody').children('tr').children('td').children('img');
+                browImg.click(function () {
+                    var str = $("#saytext").val();
+                    fun(replace_em(str));
+                    //$("#show").html(replace_em(str));
+                });
+            });
+            function replace_em(str) {//表情图标 查看结果
+                str = str.replace(/\</g, '&lt;');
+                str = str.replace(/\>/g, '&gt;');
+                str = str.replace(/\n/g, '<br/>');
+                str = str.replace(/\[em_([0-9]*)\]/g, '<img src="images/qqExpression/$1.gif" border="0" />');
+                return str;
+            }
+        }
+
+    });
+</script>
+</body>
+</html>
